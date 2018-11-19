@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Authentication from './views/Authentication';
 import './App.scss';
@@ -8,11 +8,12 @@ const Profile = () => <h2>Profile</h2>;
 
 const App = () => (
   <Router>
-    <div className="body">
+    <Fragment>
       <Route exact path="/" component={Home} />
       <Route exact path="/login" component={Authentication} />
+      <Route exact path="/signup" component={Authentication} />
       <Route exact path="/profile" component={Profile} />
-    </div>
+    </Fragment>
   </Router>
 );
 

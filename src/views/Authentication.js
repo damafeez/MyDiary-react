@@ -1,4 +1,4 @@
 import React from 'react';
 import Authentication from '../containers/Authentication';
 
-export default(props) => <Authentication {...props} />;
+export default(props) => <div className="body"><Authentication {...props} /></div>;
