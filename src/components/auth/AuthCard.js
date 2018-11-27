@@ -22,6 +22,7 @@ export default class AuthCard extends Component {
 
   login = async (event) => {
     event.preventDefault();
+    const { setNotification } = this.props;
     this.setState({ loginLoading: true });
     const {
       loginUsername,
@@ -34,13 +35,21 @@ export default class AuthCard extends Component {
     });
     this.setState({ loginLoading: false });
     if (response.success) {
-      alert(response.success);
-      return history.push('/');
+      setNotification({
+        message: response.success,
+      });
+      setTimeout(() => history.push('/'), 3000);
     }
-    if (response.error) alert(response.error);
+    if (response.error) {
+      setNotification({
+        message: response.error,
+        status: 'error',
+      });
+    }
   }
 
   signup = async (event) => {
+    const { setNotification } = this.props;
     event.preventDefault();
     this.setState({ signupLoading: true });
     const {
@@ -63,10 +72,12 @@ export default class AuthCard extends Component {
         signupPassword: '',
         signupFullName: '',
       });
-      alert(response.success);
+      setNotification({
+        message: response.success,
+      });
       return this.toggleView('login');
     }
-    if (response.error) alert(response.error);
+    if (response.error) setNotification({ message: response.error, status: 'error' });
   }
 
   render() {
