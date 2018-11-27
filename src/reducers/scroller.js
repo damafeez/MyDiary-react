@@ -1,12 +1,12 @@
 import * as types from '../actions';
 import initialState from '../initialState';
 
-export default (state = initialState.auth, action) => {
+export default (state = initialState.scroller, action) => {
   switch (action.type) {
-    case types.SIGN_UP:
+    case types.SHOW_ADD:
       return {
         ...state,
-        user: action.payload,
+        showAdd: action.payload,
       };
     default:
       return state;

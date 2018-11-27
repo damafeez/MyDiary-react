@@ -9,8 +9,9 @@ export default class AddEntry extends Component {
 
   render() {
     const { title, body } = this.state;
+    const { setRef } = this.props;
     return (
-      <section className="entries">
+      <section ref={setRef} className="entries">
         <div className="today">
           <span id="date">13</span>
           <span id="day">TUESDAY</span>
