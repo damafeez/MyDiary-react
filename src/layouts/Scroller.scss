@@ -1,0 +1,10 @@
+.scroller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translate3d(0px, 0, 0);
+  transition: transform 0 ease-in-out;
+  @media screen and (min-width: 550px) {
+    flex-direction: row;
+  }
+}

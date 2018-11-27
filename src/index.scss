@@ -44,6 +44,7 @@ body {
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
+  background-color: var(--background-color);
   color: var(--primary-text-color);
 }
 img {
@@ -107,11 +108,38 @@ button {
   }
 }
 
-.body {
+.main-body {
   background-color: var(--background-color);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+svg.icon {
+  width: 1.9rem;
+  height: 1.9rem;
 }
 
 h1 {
   font-size: 2.5rem;
+}
+header, footer {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background: #f8f8f8;
+  z-index: 5000;
+  padding: .5rem 5rem;
+  display: flex;
+  align-items: center;
+  @media screen and (min-width: 550px) {
+    position: static;
+    padding: 2rem 5rem;
+    background: transparent;
+  }
+}
+.cancel {
+  background: var(--gray);
+  margin-right: 1rem;
 }
