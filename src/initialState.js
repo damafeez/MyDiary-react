@@ -1,6 +1,8 @@
 export default {
   auth: {
-    user: {},
+    user: JSON.parse(localStorage.getItem('user')) || {},
+    loginLoading: false,
+    signupLoading: false,
   },
   scroller: {
     showAdd: false,
