@@ -2,16 +2,19 @@ import * as types from '.';
 
 const signupLoading = (payload = true) => ({ type: types.SIGN_UP_LOADING, payload });
 const loginLoading = (payload = true) => ({ type: types.LOGIN_LOADING, payload });
+const setNotification = (payload) => ({ type: types.SET_NOTIFICATION, payload });
 
 export const signup = (payload) => async (dispatch, getState, API) => {
   try {
     dispatch(signupLoading());
     await API.signup(payload);
     dispatch(signupLoading(false));
-    return { success: 'Account created successfully' };
+    return dispatch(setNotification({ message: 'Account created successfully' }));
   } catch (e) {
+    const error = e.response ? e.response.data.error[0] : true;
     dispatch(signupLoading(false));
-    return { error: e.response ? e.response.data.error[0] : true };
+    dispatch(setNotification({ message: error, status: 'error' }));
+    return { error };
   }
 };
 
@@ -24,10 +27,12 @@ export const login = (payload) => async (dispatch, getState, API) => {
     API.UPDATE_TOKEN(user.token);
     dispatch({ type: types.LOGIN, payload: user });
     dispatch(loginLoading(false));
-    return { success: 'Login Successful' };
+    return dispatch(setNotification({ message: 'Login Successful' }));
   } catch (e) {
+    const error = e.response ? e.response.data.error[0] : true;
     dispatch(loginLoading(false));
-    return { error: e.response ? e.response.data.error[0] : true };
+    dispatch(setNotification({ message: error, status: 'error' }));
+    return { error };
   }
 };
 

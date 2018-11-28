@@ -53,7 +53,7 @@ export class Scroller extends Component {
   render() {
     const { children } = this.props;
     return (
-      <div ref={this.scroller} className="scroller">{children}</div>
+      <div className="scroller">{children}</div>
     );
   }
 }

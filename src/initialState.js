@@ -12,5 +12,10 @@ export default {
   },
   entries: {
     createEntryLoading: false,
+    getEntriesLoading: false,
+    getEntriesError: '',
+    entries: JSON.parse(localStorage.getItem('entries')) || [],
+    entry: {},
+    currentEntry: null,
   },
 };
