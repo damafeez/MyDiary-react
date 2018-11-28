@@ -12,7 +12,7 @@ export default class API {
   UPDATE_TOKEN(token) {
     this.api = axios.create({
       baseURL,
-      headers: { Authorization: token },
+      headers: { 'x-auth-token': token },
     });
   }
 
@@ -22,5 +22,9 @@ export default class API {
 
   login(payload) {
     return this.unauthorized.post('/auth/login', payload);
+  }
+
+  createEntry(payload) {
+    return this.api.post('/entries', payload);
   }
 }
