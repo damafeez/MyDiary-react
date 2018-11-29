@@ -1,20 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
+import moment from 'moment';
 import './ReadEntry.scss';
 
-export default class AddEntry extends Component {
-  state = {
-    title: '',
-    body: '',
+export default ({
+  entries,
+  loading,
+  error,
+  currentEntryId,
+}) => {
+  const entry = entries[currentEntryId] || {};
+  if (entries.length === 0) {
+    if (loading) entry.title = 'Loading....';
+    else if (error) entry.title = error;
+    else {
+      entry.title = 'You have not added any entries to your diary';
+      entry.body = 'Please click the green  button at bottom left to get started';
+    }
   }
-
-  render() {
-    const { title, body } = this.state;
-    return (
-      <section className="read-entry">
-        <h2>This is a simple title</h2>
-        <p className="date">JAN 7</p>
-        <p className="body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore voluptate, ea ex iste, provident beatae, aperiam optio corrupti accusantium veritatis natus suscipit est? Expedita ab veritatis esse cum asperiores velit.</p>
-      </section>
-    );
-  }
-}
+  return (
+    <section className="read-entry">
+      <h2>{entry.title}</h2>
+      <p className="date">{entry.created && `${moment(entry.created).format('MMM').toUpperCase()} ${moment(entry.created).date()}`}</p>
+      <p className="body">{entry.body}</p>
+    </section>
+  );
+};
