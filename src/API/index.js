@@ -31,4 +31,8 @@ export default class API {
   getEntries() {
     return this.api.get('/entries');
   }
+
+  deleteEntry(id) {
+    return this.api.delete(`/entries/${id}`);
+  }
 }

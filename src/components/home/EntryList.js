@@ -5,7 +5,7 @@ import moment from 'moment';
 export default ({
   entries,
   handleClick,
-  currentEntryId,
+  currentIndex,
   scroll,
 }) => (
   <section className="entries">
@@ -17,7 +17,7 @@ export default ({
       {
         entries.map((entry, index) => (
           // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
-          <li className={currentEntryId === index ? 'active' : ''} key={entry.id} onClick={() => { scroll(false); handleClick(index); }}>
+          <li className={currentIndex === index ? 'active' : ''} key={entry.id} onClick={() => { scroll(false); handleClick(index); }}>
             <span className="pointer" />
             <h4 className="title">{entry.title}</h4>
             <p className="body">{entry.body}</p>

@@ -6,7 +6,12 @@ import icons from '../../assets/icons.svg';
 // eslint-disable-next-line react/prefer-stateless-function
 export default class AddEntry extends Component {
   render() {
-    const { scroll, showAdd } = this.props;
+    const {
+      scroll,
+      showAdd,
+      entryIsSelected,
+      handleDelete,
+    } = this.props;
     return (
       <footer>
         <button type="button" title="Settings" className="settings drop-container">
@@ -27,16 +32,20 @@ export default class AddEntry extends Component {
             <use xlinkHref={`${icons}#icon-plus`} />
           </svg>
         </button>
-        <button type="button" title="Edit Entry" onClick="editDiary()" className="edit">
-          <svg className="icon">
-            <use xlinkHref={`${icons}#icon-edit-3`} />
-          </svg>
-        </button>
-        <button type="button" title="Delete Entry" onClick="confirmAction('Are you sure you want to delete?', deleteEntry)" className="delete">
-          <svg className="icon">
-            <use xlinkHref={`${icons}#icon-trash-2`} />
-          </svg>
-        </button>
+        {entryIsSelected && (
+          <button type="button" title="Edit Entry" onClick="editDiary()" className="edit">
+            <svg className="icon">
+              <use xlinkHref={`${icons}#icon-edit-3`} />
+            </svg>
+          </button>
+        )}
+        {entryIsSelected && (
+          <button type="button" title="Delete Entry" onClick={handleDelete} className="delete">
+            <svg className="icon">
+              <use xlinkHref={`${icons}#icon-trash-2`} />
+            </svg>
+          </button>
+        )}
       </footer>
     );
   }

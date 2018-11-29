@@ -33,6 +33,17 @@ export const getEntries = (payload) => async (dispatch, getState, API) => {
   }
 };
 
+export const deleteEntry = (id, index) => async (dispatch, getState, API) => {
+  try {
+    await API.deleteEntry(id);
+    dispatch({ type: types.DELETE_ENTRY, payload: index });
+    setTimeout(() => localStorage.setItem('entries', JSON.stringify(getState().entries.entries)), 1000);
+  } catch (e) {
+    const error = e.response ? e.response.data.error[0] : 'Error deleting entry, please try again';
+    dispatch(setNotification({ message: error, status: 'error' }));
+  }
+};
+
 export const setCurrentEntry = (payload) => async (dispatch) => {
   dispatch({ type: types.SET_CURRENT_ENTRY, payload });
 };

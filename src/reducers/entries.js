@@ -34,6 +34,16 @@ export default (state = initialState.entries, action) => {
         getEntriesError: action.payload,
         getEntriesLoading: false,
       };
+    case types.DELETE_ENTRY: {
+      const entries = Object.assign(state.entries);
+      entries.splice(action.payload, 1);
+      const newCurrentEntry = state.currentEntry - 1;
+      return {
+        ...state,
+        entries: [...entries],
+        currentEntry: newCurrentEntry < 0 ? 0 : newCurrentEntry,
+      };
+    }
     case types.SET_CURRENT_ENTRY:
       return {
         ...state,
