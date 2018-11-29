@@ -13,7 +13,7 @@ export default (state = initialState.entries, action) => {
         ...state,
         entries: [action.payload, ...state.entries],
         createEntryLoading: false,
-        currentEntry: action.payload.id,
+        currentEntry: 0,
       };
     case types.GET_ENTRIES_LOADING:
       return {
@@ -26,7 +26,7 @@ export default (state = initialState.entries, action) => {
         entries: action.payload,
         getEntriesLoading: false,
         getEntriesError: '',
-        currentEntry: action.payload[0].id,
+        currentEntry: 0,
       };
     case types.GET_ENTRIES_ERROR:
       return {
