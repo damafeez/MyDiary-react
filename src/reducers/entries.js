@@ -34,6 +34,15 @@ export default (state = initialState.entries, action) => {
         getEntriesError: action.payload,
         getEntriesLoading: false,
       };
+    case types.ENTRY_UPDATE_SUCCESS: {
+      const entries = Object.assign(state.entries);
+      entries[action.payload.index] = action.payload.data;
+      return {
+        ...state,
+        entries: [...entries],
+        createEntryLoading: false,
+      };
+    }
     case types.DELETE_ENTRY: {
       const entries = Object.assign(state.entries);
       entries.splice(action.payload, 1);

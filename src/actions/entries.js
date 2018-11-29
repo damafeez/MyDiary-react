@@ -18,6 +18,22 @@ export const createEntry = (payload) => async (dispatch, getState, API) => {
   }
 };
 
+export const updateEntry = (payload = {}) => async (dispatch, getState, API) => {
+  try {
+    dispatch(entryCreateLoading());
+    const index = getState().entries.currentEntry;
+    const { entries } = getState().entries;
+    const request = await API.updateEntry(entries[index].id, payload);
+    dispatch({ type: types.ENTRY_UPDATE_SUCCESS, payload: { data: request.data.data, index } });
+    return { success: 'Entry updated successfully' };
+  } catch (e) {
+    const error = e.response ? e.response.data.error[0] : 'Error updating entry, please try again';
+    dispatch(entryCreateLoading(false));
+    dispatch(setNotification({ message: error, status: 'error' }));
+    return { error };
+  }
+};
+
 export const getEntries = (payload) => async (dispatch, getState, API) => {
   try {
     dispatch(getEntriesLoading());

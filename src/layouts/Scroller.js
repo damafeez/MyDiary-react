@@ -6,7 +6,7 @@ import './Scroller.scss';
 export class Scroller extends Component {
   componentDidMount = () => {
     this.slideTo();
-    window.addEventListener('resize', () => this.slideTo());
+    window.addEventListener('resize', this.slideTo);
     setTimeout(() => { document.querySelector('div.scroller').style.transitionDuration = '1s'; }, 1000);
   }
 

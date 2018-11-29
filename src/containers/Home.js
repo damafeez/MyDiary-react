@@ -11,6 +11,10 @@ import { confirmAction as actionConfirm } from '../actions/dialog';
 import './Home.scss';
 
 export class Home extends Component {
+  state = {
+    updateMode: false,
+  }
+
   componentDidMount = () => {
     const { getEntries } = this.props;
     getEntries();
@@ -26,6 +30,20 @@ export class Home extends Component {
     confirmAction('Are you sure you want to delete?', this.deleteEntry);
   }
 
+  handleAdd = () => {
+    const { scroll, showAdd } = this.props;
+    const { updateMode } = this.state;
+    scroll(updateMode ? true : !showAdd);
+    this.setState({ updateMode: false });
+  }
+
+  handleUpdate = () => {
+    const { scroll, showAdd } = this.props;
+    const { updateMode } = this.state;
+    scroll(showAdd && !updateMode ? true : !showAdd);
+    this.setState({ updateMode: true });
+  }
+
   render() {
     const {
       scroll,
@@ -36,11 +54,15 @@ export class Home extends Component {
       currentIndex,
       showAdd,
     } = this.props;
+    const { updateMode } = this.state;
     return (
       <Fragment>
         <div className="home">
           <Scroller>
-            <AddEntry />
+            <AddEntry
+              updateMode={updateMode && showAdd}
+              entry={entries[currentIndex]}
+            />
             <EntryList
               entries={entries}
               scroll={scroll}
@@ -55,7 +77,15 @@ export class Home extends Component {
             />
           </Scroller>
         </div>
-        <Footer showAdd={showAdd} handleDelete={this.confirmDelete} scroll={scroll} entryIsSelected={!!entries[currentIndex]} />
+        <Footer
+          showAdd={showAdd}
+          updateMode={updateMode}
+          handleDelete={this.confirmDelete}
+          scroll={scroll}
+          entryIsSelected={!!entries[currentIndex]}
+          handleAdd={this.handleAdd}
+          handleUpdate={this.handleUpdate}
+        />
       </Fragment>
     );
   }
