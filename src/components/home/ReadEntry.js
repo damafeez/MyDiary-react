@@ -6,14 +6,14 @@ export default ({
   entries,
   loading,
   error,
-  currentEntryId,
+  currentIndex,
 }) => {
-  const entry = entries[currentEntryId] || {};
+  const entry = entries[currentIndex] || {};
   if (entries.length === 0) {
     if (loading) entry.title = 'Loading....';
     else if (error) entry.title = error;
     else {
-      entry.title = 'You have not added any entries to your diary';
+      entry.title = 'You have not added any entry to your diary';
       entry.body = 'Please click the green  button at bottom left to get started';
     }
   }

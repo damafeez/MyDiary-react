@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { clear } from '../actions/notification';
+import { clear } from '../actions/dialog';
 import './NotificationDialog.scss';
 
 export class NotificationDialog extends Component {
@@ -17,6 +17,6 @@ export class NotificationDialog extends Component {
   }
 }
 
-const mapStateToProp = (state) => ({ notification: state.notification.payload });
+const mapStateToProp = (state) => ({ notification: state.dialog.notification });
 
 export default connect(mapStateToProp, { clearNotification: clear })(NotificationDialog);

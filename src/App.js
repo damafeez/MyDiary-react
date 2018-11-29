@@ -6,6 +6,7 @@ import ProtectedRoute from './hoc/ProtectedRoute';
 import Authentication from './views/Authentication';
 import Home from './views/Home';
 import NotificationDialog from './containers/NotificationDialog';
+import ConfirmAction from './containers/ConfirmAction';
 import './App.scss';
 
 const Profile = () => (<h2>Profile</h2>);
@@ -22,6 +23,7 @@ const App = () => (
           <Route component={() => (<div>hello world</div>)} />
         </Switch>
         <NotificationDialog />
+        <ConfirmAction />
       </Fragment>
     </Router>
   </Provider>
