@@ -20,6 +20,7 @@ export class Scroller extends Component {
   }
 
   scrollToItem = (item) => {
+    // gotten from a random source during bc, will provide reference later
     const diff = (item.offsetTop - window.scrollY) / 8;
     if (Math.abs(diff) > 1) {
       window.scrollTo(0, (window.scrollY + diff));

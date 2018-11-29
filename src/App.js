@@ -5,11 +5,10 @@ import store from './store';
 import ProtectedRoute from './hoc/ProtectedRoute';
 import Authentication from './views/Authentication';
 import Home from './views/Home';
+import Profile from './views/Profile';
 import NotificationDialog from './containers/NotificationDialog';
 import ConfirmAction from './containers/ConfirmAction';
 import './App.scss';
-
-const Profile = () => (<h2>Profile</h2>);
 
 const App = () => (
   <Provider store={store}>

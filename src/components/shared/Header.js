@@ -5,7 +5,7 @@ import john from '../../assets/john.jpg';
 
 export default () => (
   <header>
-    <h1><a href="home.html">MyDiary</a></h1>
+    <h1><Link to="/">MyDiary</Link></h1>
     <Link to="/profile"><img className="bg" src={john} alt="" /></Link>
   </header>
 );

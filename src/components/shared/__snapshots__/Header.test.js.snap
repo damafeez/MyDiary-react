@@ -19,11 +19,12 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h1>
-          <a
-            href="home.html"
+          <Link
+            replace={false}
+            to="/"
           >
             MyDiary
-          </a>
+          </Link>
         </h1>,
         <Link
           replace={false}
@@ -44,24 +45,26 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <a
-            href="home.html"
+          "children": <Link
+            replace={false}
+            to="/"
           >
             MyDiary
-          </a>,
+          </Link>,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
             "children": "MyDiary",
-            "href": "home.html",
+            "replace": false,
+            "to": "/",
           },
           "ref": null,
           "rendered": "MyDiary",
-          "type": "a",
+          "type": [Function],
         },
         "type": "h1",
       },
@@ -105,11 +108,12 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h1>
-            <a
-              href="home.html"
+            <Link
+              replace={false}
+              to="/"
             >
               MyDiary
-            </a>
+            </Link>
           </h1>,
           <Link
             replace={false}
@@ -130,24 +134,26 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <a
-              href="home.html"
+            "children": <Link
+              replace={false}
+              to="/"
             >
               MyDiary
-            </a>,
+            </Link>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
               "children": "MyDiary",
-              "href": "home.html",
+              "replace": false,
+              "to": "/",
             },
             "ref": null,
             "rendered": "MyDiary",
-            "type": "a",
+            "type": [Function],
           },
           "type": "h1",
         },
