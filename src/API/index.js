@@ -24,6 +24,14 @@ export default class API {
     return this.unauthorized.post('/auth/login', payload);
   }
 
+  editProfile(payload) {
+    return this.api.put('/auth/edit', payload);
+  }
+
+  updatePassword(payload) {
+    return this.api.put('/auth/password', payload);
+  }
+
   createEntry(payload) {
     return this.api.post('/entries', payload);
   }
@@ -33,7 +41,6 @@ export default class API {
   }
 
   updateEntry(id, payload) {
-    console.log(payload);
     return this.api.put(`/entries/${id}`, payload);
   }
 

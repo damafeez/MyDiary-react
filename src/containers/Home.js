@@ -53,6 +53,7 @@ export class Home extends Component {
       setEntry,
       currentIndex,
       showAdd,
+      history,
     } = this.props;
     const { updateMode } = this.state;
     return (
@@ -85,6 +86,7 @@ export class Home extends Component {
           entryIsSelected={!!entries[currentIndex]}
           handleAdd={this.handleAdd}
           handleUpdate={this.handleUpdate}
+          history={history}
         />
       </Fragment>
     );

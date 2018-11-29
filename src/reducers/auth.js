@@ -18,6 +18,22 @@ export default (state = initialState.auth, action) => {
         ...state,
         signupLoading: action.payload,
       };
+    case types.PASSWORD_UPDATE_LOADING:
+      return {
+        ...state,
+        passwordUpdateLoading: action.payload,
+      };
+    case types.PROFILE_UPDATE_LOADING:
+      return {
+        ...state,
+        profileUpdateLoading: action.payload,
+      };
+    case types.PROFILE_UPDATE:
+      return {
+        ...state,
+        user: { ...state.user, ...action.payload },
+        profileUpdateLoading: false,
+      };
     case types.SIGN_OUT:
       return {
         ...state,

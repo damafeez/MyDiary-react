@@ -3,6 +3,8 @@ export default {
     user: JSON.parse(localStorage.getItem('user')) || {},
     loginLoading: false,
     signupLoading: false,
+    profileUpdateLoading: false,
+    passwordUpdateLoading: false,
   },
   scroller: {
     showAdd: false,
