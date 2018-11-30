@@ -1,36 +1,38 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './EntryList.scss';
+import moment from 'moment';
 
-export default class AddEntry extends Component {
-  state = {
-    title: '',
-    body: '',
+export default ({
+  entries,
+  loading,
+  error,
+  handleClick,
+  currentEntry,
+}) => {
+  if (entries.length === 0) {
+    if (loading) return (<p className="no-record">Loading...</p>);
+    if (error) return (<p className="no-record">{error}</p>);
+    return (<p className="no-record">No entries.</p>);
   }
-
-  render() {
-    const { title, body } = this.state;
-    const { setRef } = this.props;
-    return (
-      <section ref={setRef} className="entries">
-        <div className="today">
-          <span id="date">13</span>
-          <span id="day">TUESDAY</span>
-        </div>
-        <ul>
-          <li>
-            <span className="pointer" />
-            <h4 className="title">Funny Title</h4>
-            <p className="body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis aliquam corrupti non eius labore facilis dolor doloremque, molestias necessitatibus esse eos dolorum architecto aut fugiat praesentium, delectus ipsum sint veniam.</p>
-            <span className="date">JUN<br />2018</span>
-          </li>
-          <li>
-            <span className="pointer" />
-            <h4 className="title">Funny Title</h4>
-            <p className="body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis aliquam corrupti non eius labore facilis dolor doloremque, molestias necessitatibus esse eos dolorum architecto aut fugiat praesentium, delectus ipsum sint veniam.</p>
-            <span className="date">JUN<br />2018</span>
-          </li>
-        </ul>
-      </section>
-    );
-  }
-}
+  return (
+    <section className="entries">
+      <div className="today">
+        <span id="date">{moment().date()}</span>
+        <span id="day">{moment().format('dddd').toUpperCase()}</span>
+      </div>
+      <ul>
+        {
+          entries.map((entry) => (
+            // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
+            <li className={currentEntry === entry.id ? 'active' : ''} key={entry.id} onClick={() => handleClick(entry.id)}>
+              <span className="pointer" />
+              <h4 className="title">{entry.title}</h4>
+              <p className="body">{entry.body}</p>
+              <span className="date">{moment(entry.created).format('MMM').toUpperCase()}<br />{moment(entry.created).date()}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  );
+};

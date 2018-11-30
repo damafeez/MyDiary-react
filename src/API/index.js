@@ -27,4 +27,8 @@ export default class API {
   createEntry(payload) {
     return this.api.post('/entries', payload);
   }
+
+  getEntries() {
+    return this.api.get('/entries');
+  }
 }
