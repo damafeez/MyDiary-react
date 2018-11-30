@@ -7,7 +7,7 @@ export default (props) => {
     type, label, handleChange, value, name, required, icon,
   } = props;
   return (
-    <div className="input-box">
+    <div className={`input-box ${type === 'textarea' ? 'textarea' : ''}`}>
       <svg className="icon">
         <use xlinkHref={`${icons}#${icon}`} />
       </svg>

@@ -10,4 +10,7 @@ export default {
   notification: {
     payload: {},
   },
+  entries: {
+    createEntryLoading: false,
+  },
 };

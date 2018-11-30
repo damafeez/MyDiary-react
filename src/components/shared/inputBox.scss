@@ -5,6 +5,30 @@
   margin-bottom: 1.2rem;
   display: flex;
   align-items: flex-end;
+  &.textarea {
+    height: auto;
+    min-height: 10rem;
+    padding-top: 1rem;
+    textarea {
+      resize: none;
+      border: none;
+      outline: none;
+      box-shadow: none;
+      font-family: inherit;
+      background-image: linear-gradient(var(--secondary-color), var(--secondary-color)), linear-gradient(#D2D2D2, #D2D2D2);
+      background-size: 0% 2px, 100% 1px;
+      background-repeat: no-repeat;
+      background-position: 0% bottom, center calc(100% - 1px);
+      background-color: transparent;
+      transition: background .2s ease-out;
+      will-change: background;
+      align-self: stretch;
+      &:focus ~ label, &.active ~ label {
+        transform: translateY(-8.2rem);
+        font-size: .9rem;
+      }
+    }
+  }
   label {
     position: absolute;
     bottom: .7rem;
@@ -54,88 +78,4 @@
       font-size: .9rem;
     }
   }
-  .input label, .textarea label {
-    position: absolute;
-    bottom: .7rem;
-    left: .1rem;
-    transition: all .2s ease-in;
-    font-size: 1.3rem;
-    color: grey;
-  }
-}
-// .textarea {
-//   height: auto;
-//   min-height: 10rem;
-//   padding-top: 1rem;
-// }
-// .input > *, .textarea * {
-//   flex: 1;
-// }
-// .input > .icon, .textarea > .icon {
-//   fill: grey;
-//   width: 1.8rem;
-//   height: 1.8rem;
-//   order: 1;
-//   flex: 0 1 2.5rem;
-//   transition: color .2s ease-out;
-// }
-// .input input, .input input:focus {
-//   border: none;
-//   outline: none;
-//   box-shadow: none;
-//   padding-bottom: .5rem;
-//   background-image: linear-gradient(var(--secondary-color), var(--secondary-color)), linear-gradient(#D2D2D2, #D2D2D2);
-//   background-size: 0% 2px, 100% 1px;
-//   background-repeat: no-repeat;
-//   background-position: 0% bottom, center calc(100% - 1px);
-//   background-color: transparent;
-//   transition: background .2s ease-out;
-//   will-change: background;
-// }
-.input input:-webkit-autofill {
-  border-bottom: 1.2px solid #D2D2D2;
-}
-.input input:-webkit-autofill:focus {
-  border-bottom-color: var(--secondary-color);
-}
-.input input {
-  color: inherit;
-  font-size: inherit;
-}
-.input input:focus, .textarea textarea:focus {
-  background-size: 100% 2px, 100% 1px;
-}
-.input label, .textarea label {
-  position: absolute;
-  bottom: .7rem;
-  left: .1rem;
-  transition: all .2s ease-in;
-  font-size: 1.3rem;
-  color: grey;
-}
-.input.active > label {
-  transform: translateY(-1.6rem);
-  font-size: .9rem;
-}
-.input.active > .icon, .textarea.active > .icon {
-  fill: var(--secondary-color);
-}
-.textarea textarea {
-  resize: none;
-  border: none;
-  outline: none;
-  box-shadow: none;
-  font-family: inherit;
-  background-image: linear-gradient(var(--secondary-color), var(--secondary-color)), linear-gradient(#D2D2D2, #D2D2D2);
-  background-size: 0% 2px, 100% 1px;
-  background-repeat: no-repeat;
-  background-position: 0% bottom, center calc(100% - 1px);
-  background-color: transparent;
-  transition: background .2s ease-out;
-  will-change: background;
-  align-self: stretch;
-}
-.textarea.active > label {
-  transform: translateY(-8.2rem);
-  font-size: .9rem;
 }
