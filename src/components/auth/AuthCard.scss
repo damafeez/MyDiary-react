@@ -5,12 +5,19 @@
   display: grid;
   grid-template-areas: "intro" "login-signup";
   grid-template-columns: 1fr;
+  @media (min-width: 550px) {
+    grid-template-areas: "login-signup intro";
+    grid-template-columns: 3.5fr 6.5fr;
+  }
   .login-signup {
     grid-area: login-signup;
     background: white;
     min-height: 30rem;
     border-radius: 0 0 4px 4px;
     padding: 7rem 3rem 6rem;
+    @media (min-width: 550px) {
+      border-radius: 4px 0 0 4px;
+    }
     span.link {
       color: #b7a193;
       cursor: pointer;
@@ -55,15 +62,11 @@
       font-weight: 300;
       margin-top: 15rem;
     }
-  }
-  @media (min-width: 550px) {
-    grid-template-areas: "login-signup intro";
-    grid-template-columns: 3.5fr 6.5fr;
-    .intro {
+    @media (min-width: 550px) {
       border-radius: 0 4px 4px 0;
     }
-    .login-signup {
-      border-radius: 4px 0 0 4px;
+    @media (min-width: 800px) {
+      padding: 7rem 5rem; 
     }
   }
   section.auth.login-view .login {

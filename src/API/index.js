@@ -3,13 +3,13 @@ import axios from 'axios';
 const baseURL = `${process.env.REACT_APP_BASE_URL}/api/v1`;
 export default class API {
   constructor(token) {
-    this.updateToken(token);
+    this.UPDATE_TOKEN(token);
     this.unauthorized = axios.create({
       baseURL,
     });
   }
 
-  updateToken(token) {
+  UPDATE_TOKEN(token) {
     this.api = axios.create({
       baseURL,
       headers: { Authorization: token },
