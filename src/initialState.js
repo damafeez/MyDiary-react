@@ -16,6 +16,6 @@ export default {
     getEntriesError: '',
     entries: JSON.parse(localStorage.getItem('entries')) || [],
     entry: {},
-    currentEntry: null,
+    currentEntry: 0,
   },
 };

@@ -18,7 +18,7 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": Array [
-        <_default />,
+        <Connect(Home) />,
         <Connect(Footer) />,
       ],
       "className": "main-body",
@@ -28,7 +28,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {},
         "ref": null,
         "rendered": null,
@@ -53,7 +53,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <_default />,
+          <Connect(Home) />,
           <Connect(Footer) />,
         ],
         "className": "main-body",
@@ -63,7 +63,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {},
           "ref": null,
           "rendered": null,

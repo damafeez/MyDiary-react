@@ -11,7 +11,7 @@ export const createEntry = (payload) => async (dispatch, getState, API) => {
     dispatch({ type: types.ENTRY_CREATE_SUCCESS, payload: request.data.data });
     return { success: 'Entry created successfully' };
   } catch (e) {
-    const error = e.response ? e.response.data.error[0] : true;
+    const error = e.response ? e.response.data.error[0] : 'Error creating entry, please try again';
     dispatch(entryCreateLoading(false));
     dispatch(setNotification({ message: error, status: 'error' }));
     return { error };
@@ -26,7 +26,7 @@ export const getEntries = (payload) => async (dispatch, getState, API) => {
     dispatch({ type: types.GET_ENTRIES_SUCCESS, payload: entries });
     return localStorage.setItem('entries', JSON.stringify(entries));
   } catch (e) {
-    const error = e.response ? e.response.data.error[0] : true;
+    const error = e.response ? e.response.data.error[0] : 'Error fetching entries, please refresh';
     dispatch({ type: types.GET_ENTRIES_ERROR, payload: error });
     dispatch(setNotification({ message: error, status: 'error' }));
     return { error };

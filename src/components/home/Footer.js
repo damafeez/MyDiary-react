@@ -3,14 +3,9 @@ import React, { Component } from 'react';
 import './Footer.scss';
 import icons from '../../assets/icons.svg';
 
+// eslint-disable-next-line react/prefer-stateless-function
 export default class AddEntry extends Component {
-  state = {
-    title: '',
-    body: '',
-  }
-
   render() {
-    const { title, body } = this.state;
     const { scroll, showAdd } = this.props;
     return (
       <footer>
