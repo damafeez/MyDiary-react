@@ -7,10 +7,12 @@ import icons from '../../assets/icons.svg';
 export default class AddEntry extends Component {
   render() {
     const {
-      scroll,
+      handleAdd,
       showAdd,
+      updateMode,
       entryIsSelected,
       handleDelete,
+      handleUpdate,
     } = this.props;
     return (
       <footer>
@@ -27,13 +29,13 @@ export default class AddEntry extends Component {
             <p onClick="logout()" className="btn round">Logout</p>
           </div> */}
         </button>
-        <button type="button" title="New entry" onClick={() => scroll(!showAdd)} className={`add ${showAdd ? 'active' : ''}`}>
+        <button type="button" title="New entry" onClick={handleAdd} className={`add ${showAdd && !updateMode ? 'active' : ''}`}>
           <svg className="icon">
             <use xlinkHref={`${icons}#icon-plus`} />
           </svg>
         </button>
         {entryIsSelected && (
-          <button type="button" title="Edit Entry" onClick="editDiary()" className="edit">
+          <button type="button" title="Edit Entry" onClick={handleUpdate} className="edit">
             <svg className="icon">
               <use xlinkHref={`${icons}#icon-edit-3`} />
             </svg>

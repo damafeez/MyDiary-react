@@ -8,7 +8,6 @@ export const setNotification = (payload = {}) => (dispatch) => dispatch({
   type: types.SET_NOTIFICATION,
   payload,
 });
-const test = () => console.log('I got her');
 export const confirmAction = (message = 'Are you sure?', callback = test) => (dispatch) => dispatch({
   type: types.CONFIRM_ACTION,
   payload: { message, callback },

@@ -4,9 +4,9 @@ import { clear } from '../actions/dialog';
 import './NotificationDialog.scss';
 
 export class NotificationDialog extends Component {
-  componentDidUpdate = () => {
+  componentDidUpdate = (prevProps) => {
     const { notification, clearNotification } = this.props;
-    if (notification.status) {
+    if (prevProps.notification !== notification && notification.status) {
       setTimeout(() => clearNotification(), notification.timeout);
     }
   }

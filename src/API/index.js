@@ -32,6 +32,11 @@ export default class API {
     return this.api.get('/entries');
   }
 
+  updateEntry(id, payload) {
+    console.log(payload);
+    return this.api.put(`/entries/${id}`, payload);
+  }
+
   deleteEntry(id) {
     return this.api.delete(`/entries/${id}`);
   }
