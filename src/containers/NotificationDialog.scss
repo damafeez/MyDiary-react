@@ -1,0 +1,28 @@
+.notification-dialog {
+  position: fixed;
+  top: -10rem;
+  right: 50%;
+  transform: translateX(50%);
+  background: white;
+  border-radius: 3px;
+  width: 25rem;
+  padding: 1rem 1.5rem;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, .1);
+  transition: top .8s ease-in-out;
+  font-size: 1.3rem;
+  z-index: 10000;
+  &.active {
+    top: 3rem;
+  }
+  &.error {
+    color: var(--outrageous-orange);
+  }
+  &.success {
+    color: #43a047;
+  }
+  p:not(:last-child) {
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid #f1f1f1;
+  }
+}

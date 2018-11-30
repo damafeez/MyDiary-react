@@ -5,4 +5,7 @@ export default {
   scroller: {
     showAdd: false,
   },
+  notification: {
+    payload: {},
+  },
 };
