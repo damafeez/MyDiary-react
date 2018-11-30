@@ -11,6 +11,9 @@ module.exports = {
     node: true,
     jest: true,
   },
+  globals: {
+    shallow: true
+  },
   parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
