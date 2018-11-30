@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 import ApiClass from '../API';
 
 const API = new ApiClass();

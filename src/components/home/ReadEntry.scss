@@ -1,0 +1,32 @@
+.read-entry {
+  flex: 1 0 25rem;
+  h2{
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+  p.date{
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: #43a047;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  p.body {
+    font-size: 1.5rem;
+    letter-spacing: .3px;
+    line-height: 1.4;
+    color: var(--lighter-text-color);
+  }
+  @media screen and (min-width: 550px) {
+    flex: 1 0 30rem;
+  }
+  @media screen and (min-width: 800px) {
+    flex: 1 0 40rem;
+  }
+  @media screen and (min-width: 1100px) {
+    flex: 1 0 45rem;
+  }
+}
