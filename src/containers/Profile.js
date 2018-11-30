@@ -7,7 +7,7 @@ import InputBox from '../components/shared/inputBox';
 import icons from '../assets/icons.svg';
 import './Profile.scss';
 
-export class Home extends Component {
+export class Profile extends Component {
   state = {
     fullName: '',
     email: '',
@@ -131,4 +131,4 @@ export default connect(mapStateToProps, {
   updateProfile: profileUpdate,
   updatePassword: passwordUpdate,
   signout: signouAction,
-})(Home);
+})(Profile);
