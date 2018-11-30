@@ -7,8 +7,9 @@ export default {
   scroller: {
     showAdd: false,
   },
-  notification: {
-    payload: {},
+  dialog: {
+    notification: {},
+    confirmAction: {},
   },
   entries: {
     createEntryLoading: false,
