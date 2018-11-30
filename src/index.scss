@@ -155,7 +155,8 @@ input[type="checkbox"]{
 	background: #ddd;
 	border-radius: 3em;
 	position: relative;
-	outline: none;
+  outline: none;
+  cursor: pointer;
 	-webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }

@@ -58,6 +58,12 @@ export default (state = initialState.entries, action) => {
         ...state,
         currentEntry: action.payload,
       };
+    case types.SIGN_OUT:
+      return {
+        ...state,
+        entry: {},
+        entries: [],
+      };
     default:
       return state;
   }
