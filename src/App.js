@@ -17,9 +17,8 @@ const App = () => (
         <Switch>
           <ProtectedRoute exact path="/" component={Home} />
           <Route exact path="/login" component={Authentication} />
-          {/* <Route exact path="/signup" component={Authentication} /> */}
           <ProtectedRoute exact path="/profile" component={Profile} />
-          <Route component={() => (<div>hello world</div>)} />
+          <Route component={() => (<div>Page not found :(</div>)} />
         </Switch>
         <NotificationDialog />
         <ConfirmAction />
