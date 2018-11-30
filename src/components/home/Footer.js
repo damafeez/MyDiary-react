@@ -11,6 +11,7 @@ export default class AddEntry extends Component {
 
   render() {
     const { title, body } = this.state;
+    const { scroll, showAdd } = this.props;
     return (
       <footer>
         <button type="button" title="Settings" className="settings drop-container">
@@ -26,7 +27,7 @@ export default class AddEntry extends Component {
             <p onClick="logout()" className="btn round">Logout</p>
           </div> */}
         </button>
-        <button type="button" title="New entry" onClick="addDiary()" className="add">
+        <button type="button" title="New entry" onClick={() => scroll(!showAdd)} className={`add ${showAdd ? 'active' : ''}`}>
           <svg className="icon">
             <use xlinkHref={`${icons}#icon-plus`} />
           </svg>

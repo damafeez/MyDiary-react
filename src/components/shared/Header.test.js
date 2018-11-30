@@ -1,7 +1,7 @@
 import React from 'react';
-import Scroller from './Scroller';
+import Header from './Header';
 
 it('matches snapshot', () => {
-  const wrapper = shallow(<Scroller />);
+  const wrapper = shallow(<Header />);
   expect(wrapper).toMatchSnapshot();
 });

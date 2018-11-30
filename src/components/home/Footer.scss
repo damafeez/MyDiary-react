@@ -5,7 +5,9 @@ footer {
   & > button {
     margin: 0 2rem;
     background-color: transparent;
-    transition: transform .3s ease-in;
+    &, & .icon {
+      transition: transform .3s ease-in;
+    }
     &:hover {
       transform: translateY(-3px)
     }
@@ -55,6 +57,9 @@ footer {
     /* animation-name: pulse; */
     animation-iteration-count: 10;
     animation-duration: 2s;
+    &.active .icon {
+      transform: rotate(45deg);
+    }
     &::after {
       border-color: transparent transparent #43a047 #43a047;
     }
