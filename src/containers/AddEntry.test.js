@@ -1,11 +1,18 @@
 import React from 'react';
 import { AddEntry } from './AddEntry';
 
-const signup = (e, callback) => callback();
+const mockEvent = {
+  preventDefault: jest.fn(),
+  target: {
+    title: { value: '' },
+    body: { value: '' },
+    reset: jest.fn(),
+  },
+};
 const setup = (overrideProps) => {
   const props = {
-    value: 'name',
-    signup,
+    updateEntry: jest.fn(() => ({})),
+    createEntry: jest.fn(() => ({})),
   };
   const wrapper = shallow(<AddEntry {...props} {...overrideProps} />);
   return { props, wrapper };
@@ -14,4 +21,18 @@ const setup = (overrideProps) => {
 it('matches snapshot', () => {
   const { wrapper } = setup();
   expect(wrapper).toMatchSnapshot();
+});
+
+
+it('handleSubmit should be callable', () => {
+  const { wrapper } = setup();
+  wrapper.instance().handleSubmit(mockEvent);
+  expect(mockEvent.preventDefault).toHaveBeenCalled();
+});
+
+it('handleSubmit should be callable::::updateMode:true', () => {
+  const { wrapper } = setup({ updateMode: true });
+  wrapper.instance().handleSubmit(mockEvent);
+  expect(mockEvent.preventDefault).toHaveBeenCalled();
+  expect(mockEvent.target.reset).toHaveBeenCalled();
 });

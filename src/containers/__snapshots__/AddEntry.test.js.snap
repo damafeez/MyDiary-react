@@ -4,8 +4,8 @@ exports[`matches snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <AddEntry
-    signup={[Function]}
-    value="name"
+    createEntry={[MockFunction]}
+    updateEntry={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
