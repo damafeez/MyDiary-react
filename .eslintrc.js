@@ -12,7 +12,8 @@ module.exports = {
     jest: true,
   },
   globals: {
-    shallow: true
+    shallow: true,
+    mockStore: true,
   },
   parser: 'babel-eslint',
   parserOptions: {
