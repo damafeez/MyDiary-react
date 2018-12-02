@@ -3,7 +3,7 @@
 exports[`matches snapshot :::currentIndex:1 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <_default
+  Symbol(enzyme.__unrendered__): <Unknown
     currentIndex={1}
     entries={
       Array [
@@ -38,12 +38,12 @@ ShallowWrapper {
           <span
             id="date"
           >
-            1
+            2
           </span>
           <span
             id="day"
           >
-            SATURDAY
+            SUNDAY
           </span>
         </div>,
         <ul>
@@ -69,7 +69,7 @@ ShallowWrapper {
             >
               DEC
               <br />
-              1
+              2
             </span>
           </li>
         </ul>,
@@ -87,12 +87,12 @@ ShallowWrapper {
             <span
               id="date"
             >
-              1
+              2
             </span>,
             <span
               id="day"
             >
-              SATURDAY
+              SUNDAY
             </span>,
           ],
           "className": "today",
@@ -104,11 +104,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": 1,
+              "children": 2,
               "id": "date",
             },
             "ref": null,
-            "rendered": 1,
+            "rendered": 2,
             "type": "span",
           },
           Object {
@@ -116,11 +116,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "SATURDAY",
+              "children": "SUNDAY",
               "id": "day",
             },
             "ref": null,
-            "rendered": "SATURDAY",
+            "rendered": "SUNDAY",
             "type": "span",
           },
         ],
@@ -154,7 +154,7 @@ ShallowWrapper {
               >
                 DEC
                 <br />
-                1
+                2
               </span>
             </li>,
           ],
@@ -185,7 +185,7 @@ ShallowWrapper {
                 >
                   DEC
                   <br />
-                  1
+                  2
                 </span>,
               ],
               "className": "",
@@ -236,7 +236,7 @@ ShallowWrapper {
                   "children": Array [
                     "DEC",
                     <br />,
-                    1,
+                    2,
                   ],
                   "className": "date",
                 },
@@ -252,7 +252,7 @@ ShallowWrapper {
                     "rendered": null,
                     "type": "br",
                   },
-                  1,
+                  2,
                 ],
                 "type": "span",
               },
@@ -278,12 +278,12 @@ ShallowWrapper {
             <span
               id="date"
             >
-              1
+              2
             </span>
             <span
               id="day"
             >
-              SATURDAY
+              SUNDAY
             </span>
           </div>,
           <ul>
@@ -309,7 +309,7 @@ ShallowWrapper {
               >
                 DEC
                 <br />
-                1
+                2
               </span>
             </li>
           </ul>,
@@ -327,12 +327,12 @@ ShallowWrapper {
               <span
                 id="date"
               >
-                1
+                2
               </span>,
               <span
                 id="day"
               >
-                SATURDAY
+                SUNDAY
               </span>,
             ],
             "className": "today",
@@ -344,11 +344,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": 1,
+                "children": 2,
                 "id": "date",
               },
               "ref": null,
-              "rendered": 1,
+              "rendered": 2,
               "type": "span",
             },
             Object {
@@ -356,11 +356,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "SATURDAY",
+                "children": "SUNDAY",
                 "id": "day",
               },
               "ref": null,
-              "rendered": "SATURDAY",
+              "rendered": "SUNDAY",
               "type": "span",
             },
           ],
@@ -394,7 +394,7 @@ ShallowWrapper {
                 >
                   DEC
                   <br />
-                  1
+                  2
                 </span>
               </li>,
             ],
@@ -425,7 +425,7 @@ ShallowWrapper {
                   >
                     DEC
                     <br />
-                    1
+                    2
                   </span>,
                 ],
                 "className": "",
@@ -476,7 +476,7 @@ ShallowWrapper {
                     "children": Array [
                       "DEC",
                       <br />,
-                      1,
+                      2,
                     ],
                     "className": "date",
                   },
@@ -492,7 +492,7 @@ ShallowWrapper {
                       "rendered": null,
                       "type": "br",
                     },
-                    1,
+                    2,
                   ],
                   "type": "span",
                 },
@@ -529,7 +529,7 @@ ShallowWrapper {
 exports[`matches snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <_default
+  Symbol(enzyme.__unrendered__): <Unknown
     currentIndex={0}
     entries={
       Array [
@@ -592,12 +592,12 @@ ShallowWrapper {
           <span
             id="date"
           >
-            1
+            2
           </span>
           <span
             id="day"
           >
-            SATURDAY
+            SUNDAY
           </span>
         </div>,
         <ul>
@@ -623,7 +623,7 @@ ShallowWrapper {
             >
               DEC
               <br />
-              1
+              2
             </span>
           </li>
         </ul>,
@@ -641,12 +641,12 @@ ShallowWrapper {
             <span
               id="date"
             >
-              1
+              2
             </span>,
             <span
               id="day"
             >
-              SATURDAY
+              SUNDAY
             </span>,
           ],
           "className": "today",
@@ -658,11 +658,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": 1,
+              "children": 2,
               "id": "date",
             },
             "ref": null,
-            "rendered": 1,
+            "rendered": 2,
             "type": "span",
           },
           Object {
@@ -670,11 +670,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "SATURDAY",
+              "children": "SUNDAY",
               "id": "day",
             },
             "ref": null,
-            "rendered": "SATURDAY",
+            "rendered": "SUNDAY",
             "type": "span",
           },
         ],
@@ -708,7 +708,7 @@ ShallowWrapper {
               >
                 DEC
                 <br />
-                1
+                2
               </span>
             </li>,
           ],
@@ -739,7 +739,7 @@ ShallowWrapper {
                 >
                   DEC
                   <br />
-                  1
+                  2
                 </span>,
               ],
               "className": "active",
@@ -790,7 +790,7 @@ ShallowWrapper {
                   "children": Array [
                     "DEC",
                     <br />,
-                    1,
+                    2,
                   ],
                   "className": "date",
                 },
@@ -806,7 +806,7 @@ ShallowWrapper {
                     "rendered": null,
                     "type": "br",
                   },
-                  1,
+                  2,
                 ],
                 "type": "span",
               },
@@ -832,12 +832,12 @@ ShallowWrapper {
             <span
               id="date"
             >
-              1
+              2
             </span>
             <span
               id="day"
             >
-              SATURDAY
+              SUNDAY
             </span>
           </div>,
           <ul>
@@ -863,7 +863,7 @@ ShallowWrapper {
               >
                 DEC
                 <br />
-                1
+                2
               </span>
             </li>
           </ul>,
@@ -881,12 +881,12 @@ ShallowWrapper {
               <span
                 id="date"
               >
-                1
+                2
               </span>,
               <span
                 id="day"
               >
-                SATURDAY
+                SUNDAY
               </span>,
             ],
             "className": "today",
@@ -898,11 +898,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": 1,
+                "children": 2,
                 "id": "date",
               },
               "ref": null,
-              "rendered": 1,
+              "rendered": 2,
               "type": "span",
             },
             Object {
@@ -910,11 +910,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "SATURDAY",
+                "children": "SUNDAY",
                 "id": "day",
               },
               "ref": null,
-              "rendered": "SATURDAY",
+              "rendered": "SUNDAY",
               "type": "span",
             },
           ],
@@ -948,7 +948,7 @@ ShallowWrapper {
                 >
                   DEC
                   <br />
-                  1
+                  2
                 </span>
               </li>,
             ],
@@ -979,7 +979,7 @@ ShallowWrapper {
                   >
                     DEC
                     <br />
-                    1
+                    2
                   </span>,
                 ],
                 "className": "active",
@@ -1030,7 +1030,7 @@ ShallowWrapper {
                     "children": Array [
                       "DEC",
                       <br />,
-                      1,
+                      2,
                     ],
                     "className": "date",
                   },
@@ -1046,7 +1046,7 @@ ShallowWrapper {
                       "rendered": null,
                       "type": "br",
                     },
-                    1,
+                    2,
                   ],
                   "type": "span",
                 },

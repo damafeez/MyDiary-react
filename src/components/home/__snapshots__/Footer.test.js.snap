@@ -3,7 +3,7 @@
 exports[`matches snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <_default
+  Symbol(enzyme.__unrendered__): <Unknown
     currentIndex={1}
     entries={
       Array [
@@ -47,7 +47,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-settings"
+              xlinkHref="[object Object]#icon-settings"
             />
           </svg>
         </button>,
@@ -61,7 +61,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-plus"
+              xlinkHref="[object Object]#icon-plus"
             />
           </svg>
         </button>,
@@ -74,7 +74,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-edit-3"
+              xlinkHref="[object Object]#icon-edit-3"
             />
           </svg>
         </button>,
@@ -87,7 +87,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-trash-2"
+              xlinkHref="[object Object]#icon-trash-2"
             />
           </svg>
         </button>,
@@ -104,7 +104,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-settings"
+              xlinkHref="[object Object]#icon-settings"
             />
           </svg>,
           "className": "settings drop-container",
@@ -119,7 +119,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <use
-              xlinkHref="icons.svg#icon-settings"
+              xlinkHref="[object Object]#icon-settings"
             />,
             "className": "icon",
           },
@@ -129,7 +129,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "xlinkHref": "icons.svg#icon-settings",
+              "xlinkHref": "[object Object]#icon-settings",
             },
             "ref": null,
             "rendered": null,
@@ -148,7 +148,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-plus"
+              xlinkHref="[object Object]#icon-plus"
             />
           </svg>,
           "className": "add active",
@@ -163,7 +163,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <use
-              xlinkHref="icons.svg#icon-plus"
+              xlinkHref="[object Object]#icon-plus"
             />,
             "className": "icon",
           },
@@ -173,7 +173,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "xlinkHref": "icons.svg#icon-plus",
+              "xlinkHref": "[object Object]#icon-plus",
             },
             "ref": null,
             "rendered": null,
@@ -192,7 +192,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-edit-3"
+              xlinkHref="[object Object]#icon-edit-3"
             />
           </svg>,
           "className": "edit",
@@ -207,7 +207,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <use
-              xlinkHref="icons.svg#icon-edit-3"
+              xlinkHref="[object Object]#icon-edit-3"
             />,
             "className": "icon",
           },
@@ -217,7 +217,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "xlinkHref": "icons.svg#icon-edit-3",
+              "xlinkHref": "[object Object]#icon-edit-3",
             },
             "ref": null,
             "rendered": null,
@@ -236,7 +236,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-trash-2"
+              xlinkHref="[object Object]#icon-trash-2"
             />
           </svg>,
           "className": "delete",
@@ -251,7 +251,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <use
-              xlinkHref="icons.svg#icon-trash-2"
+              xlinkHref="[object Object]#icon-trash-2"
             />,
             "className": "icon",
           },
@@ -261,7 +261,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "xlinkHref": "icons.svg#icon-trash-2",
+              "xlinkHref": "[object Object]#icon-trash-2",
             },
             "ref": null,
             "rendered": null,
@@ -291,7 +291,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-settings"
+                xlinkHref="[object Object]#icon-settings"
               />
             </svg>
           </button>,
@@ -305,7 +305,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-plus"
+                xlinkHref="[object Object]#icon-plus"
               />
             </svg>
           </button>,
@@ -318,7 +318,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-edit-3"
+                xlinkHref="[object Object]#icon-edit-3"
               />
             </svg>
           </button>,
@@ -331,7 +331,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-trash-2"
+                xlinkHref="[object Object]#icon-trash-2"
               />
             </svg>
           </button>,
@@ -348,7 +348,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-settings"
+                xlinkHref="[object Object]#icon-settings"
               />
             </svg>,
             "className": "settings drop-container",
@@ -363,7 +363,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <use
-                xlinkHref="icons.svg#icon-settings"
+                xlinkHref="[object Object]#icon-settings"
               />,
               "className": "icon",
             },
@@ -373,7 +373,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "xlinkHref": "icons.svg#icon-settings",
+                "xlinkHref": "[object Object]#icon-settings",
               },
               "ref": null,
               "rendered": null,
@@ -392,7 +392,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-plus"
+                xlinkHref="[object Object]#icon-plus"
               />
             </svg>,
             "className": "add active",
@@ -407,7 +407,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <use
-                xlinkHref="icons.svg#icon-plus"
+                xlinkHref="[object Object]#icon-plus"
               />,
               "className": "icon",
             },
@@ -417,7 +417,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "xlinkHref": "icons.svg#icon-plus",
+                "xlinkHref": "[object Object]#icon-plus",
               },
               "ref": null,
               "rendered": null,
@@ -436,7 +436,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-edit-3"
+                xlinkHref="[object Object]#icon-edit-3"
               />
             </svg>,
             "className": "edit",
@@ -451,7 +451,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <use
-                xlinkHref="icons.svg#icon-edit-3"
+                xlinkHref="[object Object]#icon-edit-3"
               />,
               "className": "icon",
             },
@@ -461,7 +461,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "xlinkHref": "icons.svg#icon-edit-3",
+                "xlinkHref": "[object Object]#icon-edit-3",
               },
               "ref": null,
               "rendered": null,
@@ -480,7 +480,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-trash-2"
+                xlinkHref="[object Object]#icon-trash-2"
               />
             </svg>,
             "className": "delete",
@@ -495,7 +495,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <use
-                xlinkHref="icons.svg#icon-trash-2"
+                xlinkHref="[object Object]#icon-trash-2"
               />,
               "className": "icon",
             },
@@ -505,7 +505,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "xlinkHref": "icons.svg#icon-trash-2",
+                "xlinkHref": "[object Object]#icon-trash-2",
               },
               "ref": null,
               "rendered": null,
@@ -542,7 +542,7 @@ ShallowWrapper {
 exports[`matches snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <_default
+  Symbol(enzyme.__unrendered__): <Unknown
     currentIndex={1}
     entries={
       Array [
@@ -598,7 +598,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-settings"
+              xlinkHref="[object Object]#icon-settings"
             />
           </svg>
         </button>,
@@ -612,7 +612,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-plus"
+              xlinkHref="[object Object]#icon-plus"
             />
           </svg>
         </button>,
@@ -625,7 +625,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-edit-3"
+              xlinkHref="[object Object]#icon-edit-3"
             />
           </svg>
         </button>,
@@ -638,7 +638,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-trash-2"
+              xlinkHref="[object Object]#icon-trash-2"
             />
           </svg>
         </button>,
@@ -655,7 +655,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-settings"
+              xlinkHref="[object Object]#icon-settings"
             />
           </svg>,
           "className": "settings drop-container",
@@ -670,7 +670,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <use
-              xlinkHref="icons.svg#icon-settings"
+              xlinkHref="[object Object]#icon-settings"
             />,
             "className": "icon",
           },
@@ -680,7 +680,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "xlinkHref": "icons.svg#icon-settings",
+              "xlinkHref": "[object Object]#icon-settings",
             },
             "ref": null,
             "rendered": null,
@@ -699,7 +699,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-plus"
+              xlinkHref="[object Object]#icon-plus"
             />
           </svg>,
           "className": "add ",
@@ -714,7 +714,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <use
-              xlinkHref="icons.svg#icon-plus"
+              xlinkHref="[object Object]#icon-plus"
             />,
             "className": "icon",
           },
@@ -724,7 +724,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "xlinkHref": "icons.svg#icon-plus",
+              "xlinkHref": "[object Object]#icon-plus",
             },
             "ref": null,
             "rendered": null,
@@ -743,7 +743,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-edit-3"
+              xlinkHref="[object Object]#icon-edit-3"
             />
           </svg>,
           "className": "edit",
@@ -758,7 +758,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <use
-              xlinkHref="icons.svg#icon-edit-3"
+              xlinkHref="[object Object]#icon-edit-3"
             />,
             "className": "icon",
           },
@@ -768,7 +768,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "xlinkHref": "icons.svg#icon-edit-3",
+              "xlinkHref": "[object Object]#icon-edit-3",
             },
             "ref": null,
             "rendered": null,
@@ -787,7 +787,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#icon-trash-2"
+              xlinkHref="[object Object]#icon-trash-2"
             />
           </svg>,
           "className": "delete",
@@ -802,7 +802,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <use
-              xlinkHref="icons.svg#icon-trash-2"
+              xlinkHref="[object Object]#icon-trash-2"
             />,
             "className": "icon",
           },
@@ -812,7 +812,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "xlinkHref": "icons.svg#icon-trash-2",
+              "xlinkHref": "[object Object]#icon-trash-2",
             },
             "ref": null,
             "rendered": null,
@@ -842,7 +842,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-settings"
+                xlinkHref="[object Object]#icon-settings"
               />
             </svg>
           </button>,
@@ -856,7 +856,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-plus"
+                xlinkHref="[object Object]#icon-plus"
               />
             </svg>
           </button>,
@@ -869,7 +869,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-edit-3"
+                xlinkHref="[object Object]#icon-edit-3"
               />
             </svg>
           </button>,
@@ -882,7 +882,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-trash-2"
+                xlinkHref="[object Object]#icon-trash-2"
               />
             </svg>
           </button>,
@@ -899,7 +899,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-settings"
+                xlinkHref="[object Object]#icon-settings"
               />
             </svg>,
             "className": "settings drop-container",
@@ -914,7 +914,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <use
-                xlinkHref="icons.svg#icon-settings"
+                xlinkHref="[object Object]#icon-settings"
               />,
               "className": "icon",
             },
@@ -924,7 +924,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "xlinkHref": "icons.svg#icon-settings",
+                "xlinkHref": "[object Object]#icon-settings",
               },
               "ref": null,
               "rendered": null,
@@ -943,7 +943,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-plus"
+                xlinkHref="[object Object]#icon-plus"
               />
             </svg>,
             "className": "add ",
@@ -958,7 +958,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <use
-                xlinkHref="icons.svg#icon-plus"
+                xlinkHref="[object Object]#icon-plus"
               />,
               "className": "icon",
             },
@@ -968,7 +968,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "xlinkHref": "icons.svg#icon-plus",
+                "xlinkHref": "[object Object]#icon-plus",
               },
               "ref": null,
               "rendered": null,
@@ -987,7 +987,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-edit-3"
+                xlinkHref="[object Object]#icon-edit-3"
               />
             </svg>,
             "className": "edit",
@@ -1002,7 +1002,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <use
-                xlinkHref="icons.svg#icon-edit-3"
+                xlinkHref="[object Object]#icon-edit-3"
               />,
               "className": "icon",
             },
@@ -1012,7 +1012,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "xlinkHref": "icons.svg#icon-edit-3",
+                "xlinkHref": "[object Object]#icon-edit-3",
               },
               "ref": null,
               "rendered": null,
@@ -1031,7 +1031,7 @@ ShallowWrapper {
               className="icon"
             >
               <use
-                xlinkHref="icons.svg#icon-trash-2"
+                xlinkHref="[object Object]#icon-trash-2"
               />
             </svg>,
             "className": "delete",
@@ -1046,7 +1046,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <use
-                xlinkHref="icons.svg#icon-trash-2"
+                xlinkHref="[object Object]#icon-trash-2"
               />,
               "className": "icon",
             },
@@ -1056,7 +1056,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "xlinkHref": "icons.svg#icon-trash-2",
+                "xlinkHref": "[object Object]#icon-trash-2",
               },
               "ref": null,
               "rendered": null,

@@ -34,5 +34,4 @@ it('handleSubmit should be callable::::updateMode:true', () => {
   const { wrapper } = setup({ updateMode: true });
   wrapper.instance().handleSubmit(mockEvent);
   expect(mockEvent.preventDefault).toHaveBeenCalled();
-  expect(mockEvent.target.reset).toHaveBeenCalled();
 });

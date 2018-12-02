@@ -53,7 +53,7 @@ ShallowWrapper {
                 className="icon"
               >
                 <use
-                  xlinkHref="icons.svg#icon-user"
+                  xlinkHref="[object Object]#icon-user"
                 />
               </svg>
             </div>
@@ -61,7 +61,7 @@ ShallowWrapper {
               className="open-close "
               onSubmit={[Function]}
             >
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-user"
                 label="Full Name"
@@ -69,7 +69,7 @@ ShallowWrapper {
                 required={true}
                 value="Afeez Awoyemi"
               />
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-at-sign"
                 label="Email"
@@ -98,7 +98,7 @@ ShallowWrapper {
                 className="icon"
               >
                 <use
-                  xlinkHref="icons.svg#icon-unlock"
+                  xlinkHref="[object Object]#icon-unlock"
                 />
               </svg>
             </div>
@@ -106,7 +106,7 @@ ShallowWrapper {
               className="open-close "
               onSubmit={[Function]}
             >
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-unlock"
                 label="Current Password"
@@ -115,7 +115,7 @@ ShallowWrapper {
                 type="password"
                 value=""
               />
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-unlock"
                 label="New Password"
@@ -124,7 +124,7 @@ ShallowWrapper {
                 type="password"
                 value=""
               />
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-unlock"
                 label="Confirm Password"
@@ -211,7 +211,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-user"
+                    xlinkHref="[object Object]#icon-user"
                   />
                 </svg>
               </div>
@@ -219,7 +219,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-user"
                   label="Full Name"
@@ -227,7 +227,7 @@ ShallowWrapper {
                   required={true}
                   value="Afeez Awoyemi"
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-at-sign"
                   label="Email"
@@ -256,7 +256,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-unlock"
+                    xlinkHref="[object Object]#icon-unlock"
                   />
                 </svg>
               </div>
@@ -264,7 +264,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Current Password"
@@ -273,7 +273,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="New Password"
@@ -282,7 +282,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Confirm Password"
@@ -367,7 +367,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-user"
+                      xlinkHref="[object Object]#icon-user"
                     />
                   </svg>
                 </div>
@@ -375,7 +375,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-user"
                     label="Full Name"
@@ -383,7 +383,7 @@ ShallowWrapper {
                     required={true}
                     value="Afeez Awoyemi"
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-at-sign"
                     label="Email"
@@ -412,7 +412,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-unlock"
+                      xlinkHref="[object Object]#icon-unlock"
                     />
                   </svg>
                 </div>
@@ -420,7 +420,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Current Password"
@@ -429,7 +429,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="New Password"
@@ -438,7 +438,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Confirm Password"
@@ -500,7 +500,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-user"
+                        xlinkHref="[object Object]#icon-user"
                       />
                     </svg>
                   </div>,
@@ -508,7 +508,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-user"
                       label="Full Name"
@@ -516,7 +516,7 @@ ShallowWrapper {
                       required={true}
                       value="Afeez Awoyemi"
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-at-sign"
                       label="Email"
@@ -549,7 +549,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-user"
+                          xlinkHref="[object Object]#icon-user"
                         />
                       </svg>,
                     ],
@@ -575,7 +575,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": <use
-                          xlinkHref="icons.svg#icon-user"
+                          xlinkHref="[object Object]#icon-user"
                         />,
                         "className": "icon",
                       },
@@ -585,7 +585,7 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "host",
                         "props": Object {
-                          "xlinkHref": "icons.svg#icon-user",
+                          "xlinkHref": "[object Object]#icon-user",
                         },
                         "ref": null,
                         "rendered": null,
@@ -602,7 +602,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-user"
                         label="Full Name"
@@ -610,7 +610,7 @@ ShallowWrapper {
                         required={true}
                         value="Afeez Awoyemi"
                       />,
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-at-sign"
                         label="Email"
@@ -701,7 +701,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-unlock"
+                        xlinkHref="[object Object]#icon-unlock"
                       />
                     </svg>
                   </div>,
@@ -709,7 +709,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Current Password"
@@ -718,7 +718,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="New Password"
@@ -727,7 +727,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Confirm Password"
@@ -761,7 +761,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-unlock"
+                          xlinkHref="[object Object]#icon-unlock"
                         />
                       </svg>,
                     ],
@@ -787,7 +787,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": <use
-                          xlinkHref="icons.svg#icon-unlock"
+                          xlinkHref="[object Object]#icon-unlock"
                         />,
                         "className": "icon",
                       },
@@ -797,7 +797,7 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "host",
                         "props": Object {
-                          "xlinkHref": "icons.svg#icon-unlock",
+                          "xlinkHref": "[object Object]#icon-unlock",
                         },
                         "ref": null,
                         "rendered": null,
@@ -814,7 +814,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Current Password"
@@ -823,7 +823,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />,
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="New Password"
@@ -832,7 +832,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />,
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Confirm Password"
@@ -1127,7 +1127,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-user"
+                    xlinkHref="[object Object]#icon-user"
                   />
                 </svg>
               </div>
@@ -1135,7 +1135,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-user"
                   label="Full Name"
@@ -1143,7 +1143,7 @@ ShallowWrapper {
                   required={true}
                   value="Afeez Awoyemi"
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-at-sign"
                   label="Email"
@@ -1172,7 +1172,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-unlock"
+                    xlinkHref="[object Object]#icon-unlock"
                   />
                 </svg>
               </div>
@@ -1180,7 +1180,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Current Password"
@@ -1189,7 +1189,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="New Password"
@@ -1198,7 +1198,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Confirm Password"
@@ -1285,7 +1285,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-user"
+                      xlinkHref="[object Object]#icon-user"
                     />
                   </svg>
                 </div>
@@ -1293,7 +1293,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-user"
                     label="Full Name"
@@ -1301,7 +1301,7 @@ ShallowWrapper {
                     required={true}
                     value="Afeez Awoyemi"
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-at-sign"
                     label="Email"
@@ -1330,7 +1330,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-unlock"
+                      xlinkHref="[object Object]#icon-unlock"
                     />
                   </svg>
                 </div>
@@ -1338,7 +1338,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Current Password"
@@ -1347,7 +1347,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="New Password"
@@ -1356,7 +1356,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Confirm Password"
@@ -1441,7 +1441,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-user"
+                        xlinkHref="[object Object]#icon-user"
                       />
                     </svg>
                   </div>
@@ -1449,7 +1449,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-user"
                       label="Full Name"
@@ -1457,7 +1457,7 @@ ShallowWrapper {
                       required={true}
                       value="Afeez Awoyemi"
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-at-sign"
                       label="Email"
@@ -1486,7 +1486,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-unlock"
+                        xlinkHref="[object Object]#icon-unlock"
                       />
                     </svg>
                   </div>
@@ -1494,7 +1494,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Current Password"
@@ -1503,7 +1503,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="New Password"
@@ -1512,7 +1512,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Confirm Password"
@@ -1574,7 +1574,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-user"
+                          xlinkHref="[object Object]#icon-user"
                         />
                       </svg>
                     </div>,
@@ -1582,7 +1582,7 @@ ShallowWrapper {
                       className="open-close "
                       onSubmit={[Function]}
                     >
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-user"
                         label="Full Name"
@@ -1590,7 +1590,7 @@ ShallowWrapper {
                         required={true}
                         value="Afeez Awoyemi"
                       />
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-at-sign"
                         label="Email"
@@ -1623,7 +1623,7 @@ ShallowWrapper {
                           className="icon"
                         >
                           <use
-                            xlinkHref="icons.svg#icon-user"
+                            xlinkHref="[object Object]#icon-user"
                           />
                         </svg>,
                       ],
@@ -1649,7 +1649,7 @@ ShallowWrapper {
                         "nodeType": "host",
                         "props": Object {
                           "children": <use
-                            xlinkHref="icons.svg#icon-user"
+                            xlinkHref="[object Object]#icon-user"
                           />,
                           "className": "icon",
                         },
@@ -1659,7 +1659,7 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "xlinkHref": "icons.svg#icon-user",
+                            "xlinkHref": "[object Object]#icon-user",
                           },
                           "ref": null,
                           "rendered": null,
@@ -1676,7 +1676,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-user"
                           label="Full Name"
@@ -1684,7 +1684,7 @@ ShallowWrapper {
                           required={true}
                           value="Afeez Awoyemi"
                         />,
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-at-sign"
                           label="Email"
@@ -1775,7 +1775,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-unlock"
+                          xlinkHref="[object Object]#icon-unlock"
                         />
                       </svg>
                     </div>,
@@ -1783,7 +1783,7 @@ ShallowWrapper {
                       className="open-close "
                       onSubmit={[Function]}
                     >
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Current Password"
@@ -1792,7 +1792,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="New Password"
@@ -1801,7 +1801,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Confirm Password"
@@ -1835,7 +1835,7 @@ ShallowWrapper {
                           className="icon"
                         >
                           <use
-                            xlinkHref="icons.svg#icon-unlock"
+                            xlinkHref="[object Object]#icon-unlock"
                           />
                         </svg>,
                       ],
@@ -1861,7 +1861,7 @@ ShallowWrapper {
                         "nodeType": "host",
                         "props": Object {
                           "children": <use
-                            xlinkHref="icons.svg#icon-unlock"
+                            xlinkHref="[object Object]#icon-unlock"
                           />,
                           "className": "icon",
                         },
@@ -1871,7 +1871,7 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "xlinkHref": "icons.svg#icon-unlock",
+                            "xlinkHref": "[object Object]#icon-unlock",
                           },
                           "ref": null,
                           "rendered": null,
@@ -1888,7 +1888,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-unlock"
                           label="Current Password"
@@ -1897,7 +1897,7 @@ ShallowWrapper {
                           type="password"
                           value=""
                         />,
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-unlock"
                           label="New Password"
@@ -1906,7 +1906,7 @@ ShallowWrapper {
                           type="password"
                           value=""
                         />,
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-unlock"
                           label="Confirm Password"
@@ -2254,7 +2254,7 @@ ShallowWrapper {
                 className="icon"
               >
                 <use
-                  xlinkHref="icons.svg#icon-user"
+                  xlinkHref="[object Object]#icon-user"
                 />
               </svg>
             </div>
@@ -2262,7 +2262,7 @@ ShallowWrapper {
               className="open-close "
               onSubmit={[Function]}
             >
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-user"
                 label="Full Name"
@@ -2270,7 +2270,7 @@ ShallowWrapper {
                 required={true}
                 value="Afeez Awoyemi"
               />
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-at-sign"
                 label="Email"
@@ -2299,7 +2299,7 @@ ShallowWrapper {
                 className="icon"
               >
                 <use
-                  xlinkHref="icons.svg#icon-unlock"
+                  xlinkHref="[object Object]#icon-unlock"
                 />
               </svg>
             </div>
@@ -2307,7 +2307,7 @@ ShallowWrapper {
               className="open-close "
               onSubmit={[Function]}
             >
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-unlock"
                 label="Current Password"
@@ -2316,7 +2316,7 @@ ShallowWrapper {
                 type="password"
                 value=""
               />
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-unlock"
                 label="New Password"
@@ -2325,7 +2325,7 @@ ShallowWrapper {
                 type="password"
                 value=""
               />
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-unlock"
                 label="Confirm Password"
@@ -2412,7 +2412,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-user"
+                    xlinkHref="[object Object]#icon-user"
                   />
                 </svg>
               </div>
@@ -2420,7 +2420,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-user"
                   label="Full Name"
@@ -2428,7 +2428,7 @@ ShallowWrapper {
                   required={true}
                   value="Afeez Awoyemi"
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-at-sign"
                   label="Email"
@@ -2457,7 +2457,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-unlock"
+                    xlinkHref="[object Object]#icon-unlock"
                   />
                 </svg>
               </div>
@@ -2465,7 +2465,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Current Password"
@@ -2474,7 +2474,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="New Password"
@@ -2483,7 +2483,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Confirm Password"
@@ -2568,7 +2568,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-user"
+                      xlinkHref="[object Object]#icon-user"
                     />
                   </svg>
                 </div>
@@ -2576,7 +2576,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-user"
                     label="Full Name"
@@ -2584,7 +2584,7 @@ ShallowWrapper {
                     required={true}
                     value="Afeez Awoyemi"
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-at-sign"
                     label="Email"
@@ -2613,7 +2613,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-unlock"
+                      xlinkHref="[object Object]#icon-unlock"
                     />
                   </svg>
                 </div>
@@ -2621,7 +2621,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Current Password"
@@ -2630,7 +2630,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="New Password"
@@ -2639,7 +2639,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Confirm Password"
@@ -2701,7 +2701,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-user"
+                        xlinkHref="[object Object]#icon-user"
                       />
                     </svg>
                   </div>,
@@ -2709,7 +2709,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-user"
                       label="Full Name"
@@ -2717,7 +2717,7 @@ ShallowWrapper {
                       required={true}
                       value="Afeez Awoyemi"
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-at-sign"
                       label="Email"
@@ -2750,7 +2750,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-user"
+                          xlinkHref="[object Object]#icon-user"
                         />
                       </svg>,
                     ],
@@ -2776,7 +2776,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": <use
-                          xlinkHref="icons.svg#icon-user"
+                          xlinkHref="[object Object]#icon-user"
                         />,
                         "className": "icon",
                       },
@@ -2786,7 +2786,7 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "host",
                         "props": Object {
-                          "xlinkHref": "icons.svg#icon-user",
+                          "xlinkHref": "[object Object]#icon-user",
                         },
                         "ref": null,
                         "rendered": null,
@@ -2803,7 +2803,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-user"
                         label="Full Name"
@@ -2811,7 +2811,7 @@ ShallowWrapper {
                         required={true}
                         value="Afeez Awoyemi"
                       />,
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-at-sign"
                         label="Email"
@@ -2902,7 +2902,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-unlock"
+                        xlinkHref="[object Object]#icon-unlock"
                       />
                     </svg>
                   </div>,
@@ -2910,7 +2910,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Current Password"
@@ -2919,7 +2919,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="New Password"
@@ -2928,7 +2928,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Confirm Password"
@@ -2962,7 +2962,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-unlock"
+                          xlinkHref="[object Object]#icon-unlock"
                         />
                       </svg>,
                     ],
@@ -2988,7 +2988,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": <use
-                          xlinkHref="icons.svg#icon-unlock"
+                          xlinkHref="[object Object]#icon-unlock"
                         />,
                         "className": "icon",
                       },
@@ -2998,7 +2998,7 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "host",
                         "props": Object {
-                          "xlinkHref": "icons.svg#icon-unlock",
+                          "xlinkHref": "[object Object]#icon-unlock",
                         },
                         "ref": null,
                         "rendered": null,
@@ -3015,7 +3015,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Current Password"
@@ -3024,7 +3024,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />,
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="New Password"
@@ -3033,7 +3033,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />,
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Confirm Password"
@@ -3328,7 +3328,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-user"
+                    xlinkHref="[object Object]#icon-user"
                   />
                 </svg>
               </div>
@@ -3336,7 +3336,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-user"
                   label="Full Name"
@@ -3344,7 +3344,7 @@ ShallowWrapper {
                   required={true}
                   value="Afeez Awoyemi"
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-at-sign"
                   label="Email"
@@ -3373,7 +3373,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-unlock"
+                    xlinkHref="[object Object]#icon-unlock"
                   />
                 </svg>
               </div>
@@ -3381,7 +3381,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Current Password"
@@ -3390,7 +3390,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="New Password"
@@ -3399,7 +3399,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Confirm Password"
@@ -3486,7 +3486,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-user"
+                      xlinkHref="[object Object]#icon-user"
                     />
                   </svg>
                 </div>
@@ -3494,7 +3494,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-user"
                     label="Full Name"
@@ -3502,7 +3502,7 @@ ShallowWrapper {
                     required={true}
                     value="Afeez Awoyemi"
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-at-sign"
                     label="Email"
@@ -3531,7 +3531,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-unlock"
+                      xlinkHref="[object Object]#icon-unlock"
                     />
                   </svg>
                 </div>
@@ -3539,7 +3539,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Current Password"
@@ -3548,7 +3548,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="New Password"
@@ -3557,7 +3557,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Confirm Password"
@@ -3642,7 +3642,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-user"
+                        xlinkHref="[object Object]#icon-user"
                       />
                     </svg>
                   </div>
@@ -3650,7 +3650,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-user"
                       label="Full Name"
@@ -3658,7 +3658,7 @@ ShallowWrapper {
                       required={true}
                       value="Afeez Awoyemi"
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-at-sign"
                       label="Email"
@@ -3687,7 +3687,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-unlock"
+                        xlinkHref="[object Object]#icon-unlock"
                       />
                     </svg>
                   </div>
@@ -3695,7 +3695,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Current Password"
@@ -3704,7 +3704,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="New Password"
@@ -3713,7 +3713,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Confirm Password"
@@ -3775,7 +3775,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-user"
+                          xlinkHref="[object Object]#icon-user"
                         />
                       </svg>
                     </div>,
@@ -3783,7 +3783,7 @@ ShallowWrapper {
                       className="open-close "
                       onSubmit={[Function]}
                     >
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-user"
                         label="Full Name"
@@ -3791,7 +3791,7 @@ ShallowWrapper {
                         required={true}
                         value="Afeez Awoyemi"
                       />
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-at-sign"
                         label="Email"
@@ -3824,7 +3824,7 @@ ShallowWrapper {
                           className="icon"
                         >
                           <use
-                            xlinkHref="icons.svg#icon-user"
+                            xlinkHref="[object Object]#icon-user"
                           />
                         </svg>,
                       ],
@@ -3850,7 +3850,7 @@ ShallowWrapper {
                         "nodeType": "host",
                         "props": Object {
                           "children": <use
-                            xlinkHref="icons.svg#icon-user"
+                            xlinkHref="[object Object]#icon-user"
                           />,
                           "className": "icon",
                         },
@@ -3860,7 +3860,7 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "xlinkHref": "icons.svg#icon-user",
+                            "xlinkHref": "[object Object]#icon-user",
                           },
                           "ref": null,
                           "rendered": null,
@@ -3877,7 +3877,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-user"
                           label="Full Name"
@@ -3885,7 +3885,7 @@ ShallowWrapper {
                           required={true}
                           value="Afeez Awoyemi"
                         />,
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-at-sign"
                           label="Email"
@@ -3976,7 +3976,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-unlock"
+                          xlinkHref="[object Object]#icon-unlock"
                         />
                       </svg>
                     </div>,
@@ -3984,7 +3984,7 @@ ShallowWrapper {
                       className="open-close "
                       onSubmit={[Function]}
                     >
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Current Password"
@@ -3993,7 +3993,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="New Password"
@@ -4002,7 +4002,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Confirm Password"
@@ -4036,7 +4036,7 @@ ShallowWrapper {
                           className="icon"
                         >
                           <use
-                            xlinkHref="icons.svg#icon-unlock"
+                            xlinkHref="[object Object]#icon-unlock"
                           />
                         </svg>,
                       ],
@@ -4062,7 +4062,7 @@ ShallowWrapper {
                         "nodeType": "host",
                         "props": Object {
                           "children": <use
-                            xlinkHref="icons.svg#icon-unlock"
+                            xlinkHref="[object Object]#icon-unlock"
                           />,
                           "className": "icon",
                         },
@@ -4072,7 +4072,7 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "xlinkHref": "icons.svg#icon-unlock",
+                            "xlinkHref": "[object Object]#icon-unlock",
                           },
                           "ref": null,
                           "rendered": null,
@@ -4089,7 +4089,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-unlock"
                           label="Current Password"
@@ -4098,7 +4098,7 @@ ShallowWrapper {
                           type="password"
                           value=""
                         />,
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-unlock"
                           label="New Password"
@@ -4107,7 +4107,7 @@ ShallowWrapper {
                           type="password"
                           value=""
                         />,
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-unlock"
                           label="Confirm Password"
@@ -4455,7 +4455,7 @@ ShallowWrapper {
                 className="icon"
               >
                 <use
-                  xlinkHref="icons.svg#icon-user"
+                  xlinkHref="[object Object]#icon-user"
                 />
               </svg>
             </div>
@@ -4463,7 +4463,7 @@ ShallowWrapper {
               className="open-close "
               onSubmit={[Function]}
             >
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-user"
                 label="Full Name"
@@ -4471,7 +4471,7 @@ ShallowWrapper {
                 required={true}
                 value="Afeez Awoyemi"
               />
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-at-sign"
                 label="Email"
@@ -4500,7 +4500,7 @@ ShallowWrapper {
                 className="icon"
               >
                 <use
-                  xlinkHref="icons.svg#icon-unlock"
+                  xlinkHref="[object Object]#icon-unlock"
                 />
               </svg>
             </div>
@@ -4508,7 +4508,7 @@ ShallowWrapper {
               className="open-close "
               onSubmit={[Function]}
             >
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-unlock"
                 label="Current Password"
@@ -4517,7 +4517,7 @@ ShallowWrapper {
                 type="password"
                 value=""
               />
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-unlock"
                 label="New Password"
@@ -4526,7 +4526,7 @@ ShallowWrapper {
                 type="password"
                 value=""
               />
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-unlock"
                 label="Confirm Password"
@@ -4613,7 +4613,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-user"
+                    xlinkHref="[object Object]#icon-user"
                   />
                 </svg>
               </div>
@@ -4621,7 +4621,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-user"
                   label="Full Name"
@@ -4629,7 +4629,7 @@ ShallowWrapper {
                   required={true}
                   value="Afeez Awoyemi"
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-at-sign"
                   label="Email"
@@ -4658,7 +4658,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-unlock"
+                    xlinkHref="[object Object]#icon-unlock"
                   />
                 </svg>
               </div>
@@ -4666,7 +4666,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Current Password"
@@ -4675,7 +4675,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="New Password"
@@ -4684,7 +4684,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Confirm Password"
@@ -4769,7 +4769,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-user"
+                      xlinkHref="[object Object]#icon-user"
                     />
                   </svg>
                 </div>
@@ -4777,7 +4777,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-user"
                     label="Full Name"
@@ -4785,7 +4785,7 @@ ShallowWrapper {
                     required={true}
                     value="Afeez Awoyemi"
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-at-sign"
                     label="Email"
@@ -4814,7 +4814,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-unlock"
+                      xlinkHref="[object Object]#icon-unlock"
                     />
                   </svg>
                 </div>
@@ -4822,7 +4822,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Current Password"
@@ -4831,7 +4831,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="New Password"
@@ -4840,7 +4840,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Confirm Password"
@@ -4902,7 +4902,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-user"
+                        xlinkHref="[object Object]#icon-user"
                       />
                     </svg>
                   </div>,
@@ -4910,7 +4910,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-user"
                       label="Full Name"
@@ -4918,7 +4918,7 @@ ShallowWrapper {
                       required={true}
                       value="Afeez Awoyemi"
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-at-sign"
                       label="Email"
@@ -4951,7 +4951,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-user"
+                          xlinkHref="[object Object]#icon-user"
                         />
                       </svg>,
                     ],
@@ -4977,7 +4977,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": <use
-                          xlinkHref="icons.svg#icon-user"
+                          xlinkHref="[object Object]#icon-user"
                         />,
                         "className": "icon",
                       },
@@ -4987,7 +4987,7 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "host",
                         "props": Object {
-                          "xlinkHref": "icons.svg#icon-user",
+                          "xlinkHref": "[object Object]#icon-user",
                         },
                         "ref": null,
                         "rendered": null,
@@ -5004,7 +5004,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-user"
                         label="Full Name"
@@ -5012,7 +5012,7 @@ ShallowWrapper {
                         required={true}
                         value="Afeez Awoyemi"
                       />,
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-at-sign"
                         label="Email"
@@ -5103,7 +5103,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-unlock"
+                        xlinkHref="[object Object]#icon-unlock"
                       />
                     </svg>
                   </div>,
@@ -5111,7 +5111,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Current Password"
@@ -5120,7 +5120,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="New Password"
@@ -5129,7 +5129,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Confirm Password"
@@ -5163,7 +5163,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-unlock"
+                          xlinkHref="[object Object]#icon-unlock"
                         />
                       </svg>,
                     ],
@@ -5189,7 +5189,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": <use
-                          xlinkHref="icons.svg#icon-unlock"
+                          xlinkHref="[object Object]#icon-unlock"
                         />,
                         "className": "icon",
                       },
@@ -5199,7 +5199,7 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "host",
                         "props": Object {
-                          "xlinkHref": "icons.svg#icon-unlock",
+                          "xlinkHref": "[object Object]#icon-unlock",
                         },
                         "ref": null,
                         "rendered": null,
@@ -5216,7 +5216,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Current Password"
@@ -5225,7 +5225,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />,
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="New Password"
@@ -5234,7 +5234,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />,
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Confirm Password"
@@ -5529,7 +5529,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-user"
+                    xlinkHref="[object Object]#icon-user"
                   />
                 </svg>
               </div>
@@ -5537,7 +5537,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-user"
                   label="Full Name"
@@ -5545,7 +5545,7 @@ ShallowWrapper {
                   required={true}
                   value="Afeez Awoyemi"
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-at-sign"
                   label="Email"
@@ -5574,7 +5574,7 @@ ShallowWrapper {
                   className="icon"
                 >
                   <use
-                    xlinkHref="icons.svg#icon-unlock"
+                    xlinkHref="[object Object]#icon-unlock"
                   />
                 </svg>
               </div>
@@ -5582,7 +5582,7 @@ ShallowWrapper {
                 className="open-close "
                 onSubmit={[Function]}
               >
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Current Password"
@@ -5591,7 +5591,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="New Password"
@@ -5600,7 +5600,7 @@ ShallowWrapper {
                   type="password"
                   value=""
                 />
-                <_default
+                <Unknown
                   handleChange={[Function]}
                   icon="icon-unlock"
                   label="Confirm Password"
@@ -5687,7 +5687,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-user"
+                      xlinkHref="[object Object]#icon-user"
                     />
                   </svg>
                 </div>
@@ -5695,7 +5695,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-user"
                     label="Full Name"
@@ -5703,7 +5703,7 @@ ShallowWrapper {
                     required={true}
                     value="Afeez Awoyemi"
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-at-sign"
                     label="Email"
@@ -5732,7 +5732,7 @@ ShallowWrapper {
                     className="icon"
                   >
                     <use
-                      xlinkHref="icons.svg#icon-unlock"
+                      xlinkHref="[object Object]#icon-unlock"
                     />
                   </svg>
                 </div>
@@ -5740,7 +5740,7 @@ ShallowWrapper {
                   className="open-close "
                   onSubmit={[Function]}
                 >
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Current Password"
@@ -5749,7 +5749,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="New Password"
@@ -5758,7 +5758,7 @@ ShallowWrapper {
                     type="password"
                     value=""
                   />
-                  <_default
+                  <Unknown
                     handleChange={[Function]}
                     icon="icon-unlock"
                     label="Confirm Password"
@@ -5843,7 +5843,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-user"
+                        xlinkHref="[object Object]#icon-user"
                       />
                     </svg>
                   </div>
@@ -5851,7 +5851,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-user"
                       label="Full Name"
@@ -5859,7 +5859,7 @@ ShallowWrapper {
                       required={true}
                       value="Afeez Awoyemi"
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-at-sign"
                       label="Email"
@@ -5888,7 +5888,7 @@ ShallowWrapper {
                       className="icon"
                     >
                       <use
-                        xlinkHref="icons.svg#icon-unlock"
+                        xlinkHref="[object Object]#icon-unlock"
                       />
                     </svg>
                   </div>
@@ -5896,7 +5896,7 @@ ShallowWrapper {
                     className="open-close "
                     onSubmit={[Function]}
                   >
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Current Password"
@@ -5905,7 +5905,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="New Password"
@@ -5914,7 +5914,7 @@ ShallowWrapper {
                       type="password"
                       value=""
                     />
-                    <_default
+                    <Unknown
                       handleChange={[Function]}
                       icon="icon-unlock"
                       label="Confirm Password"
@@ -5976,7 +5976,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-user"
+                          xlinkHref="[object Object]#icon-user"
                         />
                       </svg>
                     </div>,
@@ -5984,7 +5984,7 @@ ShallowWrapper {
                       className="open-close "
                       onSubmit={[Function]}
                     >
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-user"
                         label="Full Name"
@@ -5992,7 +5992,7 @@ ShallowWrapper {
                         required={true}
                         value="Afeez Awoyemi"
                       />
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-at-sign"
                         label="Email"
@@ -6025,7 +6025,7 @@ ShallowWrapper {
                           className="icon"
                         >
                           <use
-                            xlinkHref="icons.svg#icon-user"
+                            xlinkHref="[object Object]#icon-user"
                           />
                         </svg>,
                       ],
@@ -6051,7 +6051,7 @@ ShallowWrapper {
                         "nodeType": "host",
                         "props": Object {
                           "children": <use
-                            xlinkHref="icons.svg#icon-user"
+                            xlinkHref="[object Object]#icon-user"
                           />,
                           "className": "icon",
                         },
@@ -6061,7 +6061,7 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "xlinkHref": "icons.svg#icon-user",
+                            "xlinkHref": "[object Object]#icon-user",
                           },
                           "ref": null,
                           "rendered": null,
@@ -6078,7 +6078,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-user"
                           label="Full Name"
@@ -6086,7 +6086,7 @@ ShallowWrapper {
                           required={true}
                           value="Afeez Awoyemi"
                         />,
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-at-sign"
                           label="Email"
@@ -6177,7 +6177,7 @@ ShallowWrapper {
                         className="icon"
                       >
                         <use
-                          xlinkHref="icons.svg#icon-unlock"
+                          xlinkHref="[object Object]#icon-unlock"
                         />
                       </svg>
                     </div>,
@@ -6185,7 +6185,7 @@ ShallowWrapper {
                       className="open-close "
                       onSubmit={[Function]}
                     >
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Current Password"
@@ -6194,7 +6194,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="New Password"
@@ -6203,7 +6203,7 @@ ShallowWrapper {
                         type="password"
                         value=""
                       />
-                      <_default
+                      <Unknown
                         handleChange={[Function]}
                         icon="icon-unlock"
                         label="Confirm Password"
@@ -6237,7 +6237,7 @@ ShallowWrapper {
                           className="icon"
                         >
                           <use
-                            xlinkHref="icons.svg#icon-unlock"
+                            xlinkHref="[object Object]#icon-unlock"
                           />
                         </svg>,
                       ],
@@ -6263,7 +6263,7 @@ ShallowWrapper {
                         "nodeType": "host",
                         "props": Object {
                           "children": <use
-                            xlinkHref="icons.svg#icon-unlock"
+                            xlinkHref="[object Object]#icon-unlock"
                           />,
                           "className": "icon",
                         },
@@ -6273,7 +6273,7 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "xlinkHref": "icons.svg#icon-unlock",
+                            "xlinkHref": "[object Object]#icon-unlock",
                           },
                           "ref": null,
                           "rendered": null,
@@ -6290,7 +6290,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-unlock"
                           label="Current Password"
@@ -6299,7 +6299,7 @@ ShallowWrapper {
                           type="password"
                           value=""
                         />,
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-unlock"
                           label="New Password"
@@ -6308,7 +6308,7 @@ ShallowWrapper {
                           type="password"
                           value=""
                         />,
-                        <_default
+                        <Unknown
                           handleChange={[Function]}
                           icon="icon-unlock"
                           label="Confirm Password"

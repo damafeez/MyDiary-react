@@ -34,7 +34,7 @@ ShallowWrapper {
           name="edit-entry"
           onReset={[Function]}
         >
-          <_default
+          <Unknown
             handleChange={[Function]}
             icon="icon-edit-2"
             label="Title"
@@ -42,7 +42,7 @@ ShallowWrapper {
             required={true}
             value=""
           />
-          <_default
+          <Unknown
             handleChange={[Function]}
             icon="icon-file-text"
             label="Body"
@@ -84,7 +84,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <_default
+            <Unknown
               handleChange={[Function]}
               icon="icon-edit-2"
               label="Title"
@@ -92,7 +92,7 @@ ShallowWrapper {
               required={true}
               value=""
             />,
-            <_default
+            <Unknown
               handleChange={[Function]}
               icon="icon-file-text"
               label="Body"
@@ -199,7 +199,7 @@ ShallowWrapper {
             name="edit-entry"
             onReset={[Function]}
           >
-            <_default
+            <Unknown
               handleChange={[Function]}
               icon="icon-edit-2"
               label="Title"
@@ -207,7 +207,7 @@ ShallowWrapper {
               required={true}
               value=""
             />
-            <_default
+            <Unknown
               handleChange={[Function]}
               icon="icon-file-text"
               label="Body"
@@ -249,7 +249,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-edit-2"
                 label="Title"
@@ -257,7 +257,7 @@ ShallowWrapper {
                 required={true}
                 value=""
               />,
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-file-text"
                 label="Body"
@@ -405,7 +405,7 @@ ShallowWrapper {
           name="edit-entry"
           onReset={[Function]}
         >
-          <_default
+          <Unknown
             handleChange={[Function]}
             icon="icon-edit-2"
             label="Title"
@@ -413,7 +413,7 @@ ShallowWrapper {
             required={true}
             value=""
           />
-          <_default
+          <Unknown
             handleChange={[Function]}
             icon="icon-file-text"
             label="Body"
@@ -455,7 +455,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <_default
+            <Unknown
               handleChange={[Function]}
               icon="icon-edit-2"
               label="Title"
@@ -463,7 +463,7 @@ ShallowWrapper {
               required={true}
               value=""
             />,
-            <_default
+            <Unknown
               handleChange={[Function]}
               icon="icon-file-text"
               label="Body"
@@ -570,7 +570,7 @@ ShallowWrapper {
             name="edit-entry"
             onReset={[Function]}
           >
-            <_default
+            <Unknown
               handleChange={[Function]}
               icon="icon-edit-2"
               label="Title"
@@ -578,7 +578,7 @@ ShallowWrapper {
               required={true}
               value=""
             />
-            <_default
+            <Unknown
               handleChange={[Function]}
               icon="icon-file-text"
               label="Body"
@@ -620,7 +620,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-edit-2"
                 label="Title"
@@ -628,7 +628,7 @@ ShallowWrapper {
                 required={true}
                 value=""
               />,
-              <_default
+              <Unknown
                 handleChange={[Function]}
                 icon="icon-file-text"
                 label="Body"
