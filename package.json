@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "jest -u",
-    "build": "webpack --mode production",
+    "build": "rimraf dist && webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "lint": "eslint . --fix",
-    "test-watch": "jest --coverage --watchAll -u"
+    "test-watch": "jest --coverage --watchAll -u",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -18,14 +19,15 @@
     "node-sass": "^4.10.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "redux-devtools": "^3.4.2",
-    "redux-mock-store": "^1.5.3",
     "react-redux": "^5.1.0",
     "react-router-dom": "^4.3.1",
     "react-test-renderer": "^16.6.3",
     "redux": "^4.0.1",
+    "redux-devtools": "^3.4.2",
     "redux-devtools-extension": "^2.13.6",
-    "redux-thunk": "^2.3.0"
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0",
+    "rimraf": "^2.6.2"
   },
   "jest": {
     "moduleNameMapper": {

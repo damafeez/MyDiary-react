@@ -29,7 +29,6 @@
       align-items: center;
       padding: 2rem;
       @media screen and (min-width: 550px) {
-        background-size: 90% auto;
         background-attachment: fixed;
         border-radius: 0 4px 4px 0;
         flex-basis: 45%;
@@ -92,6 +91,15 @@
   justify-content: space-between;
   padding: 2rem;
   align-items: center;
+  &.check {
+    justify-content: flex-start;
+    padding: .5rem 2rem;
+    label {
+      flex: 1;
+      padding: 1.5rem 0;
+      text-align: left;
+    }
+  }
 }
 .info-settings .settings > div > .header > svg {
   margin-right: .88rem;
