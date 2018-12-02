@@ -1,46 +1,73 @@
 {
-  "name": "mydiary-react",
-  "version": "0.1.0",
-  "private": true,
+  "name": "webpack-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -u",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "lint": "eslint . --fix",
+    "test-watch": "jest --coverage --watchAll -u"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "moment": "^2.22.2",
     "node-sass": "^4.10.0",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "redux-devtools": "^3.4.2",
+    "redux-mock-store": "^1.5.3",
     "react-redux": "^5.1.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.5",
     "react-test-renderer": "^16.6.3",
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.6",
     "redux-thunk": "^2.3.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint . --fix",
-    "test-watch": "react-scripts test --coverage --watch -u"
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/config/assetsTransformer.js",
+      "\\.(css|less|scss)$": "<rootDir>/config/assetsTransformer.js"
+    },
+    "setupFiles": [
+      "<rootDir>/config/setupTests.js"
+    ]
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
-    "redux-devtools": "^3.4.2",
-    "redux-mock-store": "^1.5.3"
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "img-loader": "^3.0.1",
+    "jest": "^23.6.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   }
 }

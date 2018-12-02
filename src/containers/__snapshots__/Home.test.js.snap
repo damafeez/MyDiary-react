@@ -67,7 +67,7 @@ ShallowWrapper {
               }
               updateMode={false}
             />
-            <_default
+            <Unknown
               currentIndex={0}
               entries={
                 Array [
@@ -80,7 +80,7 @@ ShallowWrapper {
               }
               scroll={[MockFunction]}
             />
-            <_default
+            <Unknown
               currentIndex={0}
               entries={
                 Array [
@@ -94,7 +94,7 @@ ShallowWrapper {
             />
           </Connect(Scroller)>
         </div>,
-        <_default
+        <Unknown
           entryIsSelected={true}
           handleAdd={[Function]}
           handleDelete={[Function]}
@@ -122,7 +122,7 @@ ShallowWrapper {
               }
               updateMode={false}
             />
-            <_default
+            <Unknown
               currentIndex={0}
               entries={
                 Array [
@@ -135,7 +135,7 @@ ShallowWrapper {
               }
               scroll={[MockFunction]}
             />
-            <_default
+            <Unknown
               currentIndex={0}
               entries={
                 Array [
@@ -167,7 +167,7 @@ ShallowWrapper {
                 }
                 updateMode={false}
               />,
-              <_default
+              <Unknown
                 currentIndex={0}
                 entries={
                   Array [
@@ -180,7 +180,7 @@ ShallowWrapper {
                 }
                 scroll={[MockFunction]}
               />,
-              <_default
+              <Unknown
                 currentIndex={0}
                 entries={
                   Array [
@@ -299,7 +299,7 @@ ShallowWrapper {
                 }
                 updateMode={false}
               />
-              <_default
+              <Unknown
                 currentIndex={0}
                 entries={
                   Array [
@@ -312,7 +312,7 @@ ShallowWrapper {
                 }
                 scroll={[MockFunction]}
               />
-              <_default
+              <Unknown
                 currentIndex={0}
                 entries={
                   Array [
@@ -326,7 +326,7 @@ ShallowWrapper {
               />
             </Connect(Scroller)>
           </div>,
-          <_default
+          <Unknown
             entryIsSelected={true}
             handleAdd={[Function]}
             handleDelete={[Function]}
@@ -354,7 +354,7 @@ ShallowWrapper {
                 }
                 updateMode={false}
               />
-              <_default
+              <Unknown
                 currentIndex={0}
                 entries={
                   Array [
@@ -367,7 +367,7 @@ ShallowWrapper {
                 }
                 scroll={[MockFunction]}
               />
-              <_default
+              <Unknown
                 currentIndex={0}
                 entries={
                   Array [
@@ -399,7 +399,7 @@ ShallowWrapper {
                   }
                   updateMode={false}
                 />,
-                <_default
+                <Unknown
                   currentIndex={0}
                   entries={
                     Array [
@@ -412,7 +412,7 @@ ShallowWrapper {
                   }
                   scroll={[MockFunction]}
                 />,
-                <_default
+                <Unknown
                   currentIndex={0}
                   entries={
                     Array [

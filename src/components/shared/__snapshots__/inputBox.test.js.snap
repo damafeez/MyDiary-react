@@ -3,7 +3,7 @@
 exports[`matches snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <_default
+  Symbol(enzyme.__unrendered__): <Unknown
     value="name"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -24,7 +24,7 @@ ShallowWrapper {
           className="icon"
         >
           <use
-            xlinkHref="icons.svg#undefined"
+            xlinkHref="[object Object]#undefined"
           />
         </svg>,
         <input
@@ -44,7 +44,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <use
-            xlinkHref="icons.svg#undefined"
+            xlinkHref="[object Object]#undefined"
           />,
           "className": "icon",
         },
@@ -54,7 +54,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "xlinkHref": "icons.svg#undefined",
+            "xlinkHref": "[object Object]#undefined",
           },
           "ref": null,
           "rendered": null,
@@ -105,7 +105,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#undefined"
+              xlinkHref="[object Object]#undefined"
             />
           </svg>,
           <input
@@ -125,7 +125,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <use
-              xlinkHref="icons.svg#undefined"
+              xlinkHref="[object Object]#undefined"
             />,
             "className": "icon",
           },
@@ -135,7 +135,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "xlinkHref": "icons.svg#undefined",
+              "xlinkHref": "[object Object]#undefined",
             },
             "ref": null,
             "rendered": null,
@@ -199,7 +199,7 @@ ShallowWrapper {
 exports[`matches snapshot:::textarea 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <_default
+  Symbol(enzyme.__unrendered__): <Unknown
     type="textarea"
     value="name"
   />,
@@ -221,7 +221,7 @@ ShallowWrapper {
           className="icon"
         >
           <use
-            xlinkHref="icons.svg#undefined"
+            xlinkHref="[object Object]#undefined"
           />
         </svg>,
         <textarea
@@ -242,7 +242,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <use
-            xlinkHref="icons.svg#undefined"
+            xlinkHref="[object Object]#undefined"
           />,
           "className": "icon",
         },
@@ -252,7 +252,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "xlinkHref": "icons.svg#undefined",
+            "xlinkHref": "[object Object]#undefined",
           },
           "ref": null,
           "rendered": null,
@@ -304,7 +304,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#undefined"
+              xlinkHref="[object Object]#undefined"
             />
           </svg>,
           <textarea
@@ -325,7 +325,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <use
-              xlinkHref="icons.svg#undefined"
+              xlinkHref="[object Object]#undefined"
             />,
             "className": "icon",
           },
@@ -335,7 +335,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "xlinkHref": "icons.svg#undefined",
+              "xlinkHref": "[object Object]#undefined",
             },
             "ref": null,
             "rendered": null,
@@ -400,7 +400,7 @@ ShallowWrapper {
 exports[`matches snapshot:::value: 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <_default
+  Symbol(enzyme.__unrendered__): <Unknown
     value=""
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -421,7 +421,7 @@ ShallowWrapper {
           className="icon"
         >
           <use
-            xlinkHref="icons.svg#undefined"
+            xlinkHref="[object Object]#undefined"
           />
         </svg>,
         <input
@@ -441,7 +441,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <use
-            xlinkHref="icons.svg#undefined"
+            xlinkHref="[object Object]#undefined"
           />,
           "className": "icon",
         },
@@ -451,7 +451,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "xlinkHref": "icons.svg#undefined",
+            "xlinkHref": "[object Object]#undefined",
           },
           "ref": null,
           "rendered": null,
@@ -502,7 +502,7 @@ ShallowWrapper {
             className="icon"
           >
             <use
-              xlinkHref="icons.svg#undefined"
+              xlinkHref="[object Object]#undefined"
             />
           </svg>,
           <input
@@ -522,7 +522,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <use
-              xlinkHref="icons.svg#undefined"
+              xlinkHref="[object Object]#undefined"
             />,
             "className": "icon",
           },
@@ -532,7 +532,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "xlinkHref": "icons.svg#undefined",
+              "xlinkHref": "[object Object]#undefined",
             },
             "ref": null,
             "rendered": null,
