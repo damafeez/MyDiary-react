@@ -9,7 +9,8 @@
 
 # production
 /dist
-/build
+/dist-server
+/dist-client
 /.firebase
 
 # package-lock.json

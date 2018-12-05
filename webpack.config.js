@@ -3,6 +3,9 @@ const path = require('path');
 
 module.exports = {
   entry: ['@babel/polyfill', path.join(__dirname, './client/index.js')],
+  output: {
+    path: path.join(__dirname, './dist-client'),
+  },
   module: {
     rules: [
       {

@@ -29,14 +29,14 @@ webPush.setVapidDetails(
 );
 dailyReminder().start();
 
-app.use(express.static(path.join(__dirname, '../dist')));
+app.use(express.static(path.join(__dirname, '../dist-client')));
 console.log('next dates', dailyReminder().nextDates());
 
 app.use('/api/v1', api);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(documentation, { customCss: '.swagger-ui .topbar { display: none }' }));
 
 app.use('/*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../dist/index.html'));
+  res.sendFile(path.join(__dirname, '../dist-client/index.html'));
 });
 
 app.listen(PORT, () => console.log('server status', `server is running on port ${PORT}, NODE_ENV: ${process.env.NODE_ENV}`));
