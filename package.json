@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "jest -u",
-    "build": "rimraf dist && webpack --mode production",
-    "start": "webpack-dev-server --open --mode development",
+    "build:client": "webpack --mode production",
+    "build:server": "babel --ignore ./server/tests -d ./dist-server ./server -s",
+    "build:concurrently": "concurrently \"npm run build:server\" \"npm run build:client\"",
+    "build": "rm -rf dist-client && rm -rf dist-server dist && npm run build:concurrently",
+    "start:dev": "webpack-dev-server --open --mode development",
+    "start": "node dist-server/index.js",
     "lint": "eslint . --fix",
     "test-watch": "jest --coverage --watchAll -u",
     "start:watch": "nodemon server/index.js --exec babel-node",
@@ -16,6 +20,7 @@
     "axios": "^0.18.0",
     "bcrypt": "^3.0.0",
     "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
     "cors": "^2.8.4",
     "cron": "^1.3.0",
     "dotenv": "^6.0.0",
@@ -37,7 +42,6 @@
     "redux-devtools-extension": "^2.13.6",
     "redux-mock-store": "^1.5.3",
     "redux-thunk": "^2.3.0",
-    "rimraf": "^2.6.2",
     "swagger-ui-express": "^3.0.10",
     "web-push": "^3.3.2"
   },
@@ -50,7 +54,10 @@
       "<rootDir>/config/setupTests.js"
     ],
     "coverageDirectory": "coverage-jest",
-    "testPathIgnorePatterns": ["\\\\node_modules\\\\", "./server"]
+    "testPathIgnorePatterns": [
+      "\\\\node_modules\\\\",
+      "./server"
+    ]
   },
   "keywords": [],
   "author": "",
