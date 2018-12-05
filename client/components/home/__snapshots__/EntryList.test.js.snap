@@ -1,0 +1,1081 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot :::currentIndex:1 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <_default
+    currentIndex={1}
+    entries={
+      Array [
+        Object {
+          "body": "this body",
+          "id": 1,
+          "title": "this title",
+        },
+      ]
+    }
+    handleClick={[MockFunction]}
+    scroll={[MockFunction]}
+    updateMode={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="today"
+        >
+          <span
+            id="date"
+          >
+            5
+          </span>
+          <span
+            id="day"
+          >
+            WEDNESDAY
+          </span>
+        </div>,
+        <ul>
+          <li
+            className=""
+            onClick={[Function]}
+          >
+            <span
+              className="pointer"
+            />
+            <h4
+              className="title"
+            >
+              this title
+            </h4>
+            <p
+              className="body"
+            >
+              this body
+            </p>
+            <span
+              className="date"
+            >
+              DEC
+              <br />
+              5
+            </span>
+          </li>
+        </ul>,
+      ],
+      "className": "entries",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              id="date"
+            >
+              5
+            </span>,
+            <span
+              id="day"
+            >
+              WEDNESDAY
+            </span>,
+          ],
+          "className": "today",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 5,
+              "id": "date",
+            },
+            "ref": null,
+            "rendered": 5,
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "WEDNESDAY",
+              "id": "day",
+            },
+            "ref": null,
+            "rendered": "WEDNESDAY",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <span
+                className="pointer"
+              />
+              <h4
+                className="title"
+              >
+                this title
+              </h4>
+              <p
+                className="body"
+              >
+                this body
+              </p>
+              <span
+                className="date"
+              >
+                DEC
+                <br />
+                5
+              </span>
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="pointer"
+                />,
+                <h4
+                  className="title"
+                >
+                  this title
+                </h4>,
+                <p
+                  className="body"
+                >
+                  this body
+                </p>,
+                <span
+                  className="date"
+                >
+                  DEC
+                  <br />
+                  5
+                </span>,
+              ],
+              "className": "",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "pointer",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "this title",
+                  "className": "title",
+                },
+                "ref": null,
+                "rendered": "this title",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "this body",
+                  "className": "body",
+                },
+                "ref": null,
+                "rendered": "this body",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "DEC",
+                    <br />,
+                    5,
+                  ],
+                  "className": "date",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "DEC",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  5,
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="today"
+          >
+            <span
+              id="date"
+            >
+              5
+            </span>
+            <span
+              id="day"
+            >
+              WEDNESDAY
+            </span>
+          </div>,
+          <ul>
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <span
+                className="pointer"
+              />
+              <h4
+                className="title"
+              >
+                this title
+              </h4>
+              <p
+                className="body"
+              >
+                this body
+              </p>
+              <span
+                className="date"
+              >
+                DEC
+                <br />
+                5
+              </span>
+            </li>
+          </ul>,
+        ],
+        "className": "entries",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                id="date"
+              >
+                5
+              </span>,
+              <span
+                id="day"
+              >
+                WEDNESDAY
+              </span>,
+            ],
+            "className": "today",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 5,
+                "id": "date",
+              },
+              "ref": null,
+              "rendered": 5,
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "WEDNESDAY",
+                "id": "day",
+              },
+              "ref": null,
+              "rendered": "WEDNESDAY",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className=""
+                onClick={[Function]}
+              >
+                <span
+                  className="pointer"
+                />
+                <h4
+                  className="title"
+                >
+                  this title
+                </h4>
+                <p
+                  className="body"
+                >
+                  this body
+                </p>
+                <span
+                  className="date"
+                >
+                  DEC
+                  <br />
+                  5
+                </span>
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="pointer"
+                  />,
+                  <h4
+                    className="title"
+                  >
+                    this title
+                  </h4>,
+                  <p
+                    className="body"
+                  >
+                    this body
+                  </p>,
+                  <span
+                    className="date"
+                  >
+                    DEC
+                    <br />
+                    5
+                  </span>,
+                ],
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "pointer",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "this title",
+                    "className": "title",
+                  },
+                  "ref": null,
+                  "rendered": "this title",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "this body",
+                    "className": "body",
+                  },
+                  "ref": null,
+                  "rendered": "this body",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "DEC",
+                      <br />,
+                      5,
+                    ],
+                    "className": "date",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "DEC",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    5,
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`matches snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <_default
+    currentIndex={0}
+    entries={
+      Array [
+        Object {
+          "body": "this body",
+          "id": 1,
+          "title": "this title",
+        },
+      ]
+    }
+    handleClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            0,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    scroll={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            false,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    updateMode={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="today"
+        >
+          <span
+            id="date"
+          >
+            5
+          </span>
+          <span
+            id="day"
+          >
+            WEDNESDAY
+          </span>
+        </div>,
+        <ul>
+          <li
+            className="active"
+            onClick={[Function]}
+          >
+            <span
+              className="pointer"
+            />
+            <h4
+              className="title"
+            >
+              this title
+            </h4>
+            <p
+              className="body"
+            >
+              this body
+            </p>
+            <span
+              className="date"
+            >
+              DEC
+              <br />
+              5
+            </span>
+          </li>
+        </ul>,
+      ],
+      "className": "entries",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              id="date"
+            >
+              5
+            </span>,
+            <span
+              id="day"
+            >
+              WEDNESDAY
+            </span>,
+          ],
+          "className": "today",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 5,
+              "id": "date",
+            },
+            "ref": null,
+            "rendered": 5,
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "WEDNESDAY",
+              "id": "day",
+            },
+            "ref": null,
+            "rendered": "WEDNESDAY",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className="active"
+              onClick={[Function]}
+            >
+              <span
+                className="pointer"
+              />
+              <h4
+                className="title"
+              >
+                this title
+              </h4>
+              <p
+                className="body"
+              >
+                this body
+              </p>
+              <span
+                className="date"
+              >
+                DEC
+                <br />
+                5
+              </span>
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="pointer"
+                />,
+                <h4
+                  className="title"
+                >
+                  this title
+                </h4>,
+                <p
+                  className="body"
+                >
+                  this body
+                </p>,
+                <span
+                  className="date"
+                >
+                  DEC
+                  <br />
+                  5
+                </span>,
+              ],
+              "className": "active",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "pointer",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "this title",
+                  "className": "title",
+                },
+                "ref": null,
+                "rendered": "this title",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "this body",
+                  "className": "body",
+                },
+                "ref": null,
+                "rendered": "this body",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "DEC",
+                    <br />,
+                    5,
+                  ],
+                  "className": "date",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "DEC",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  5,
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="today"
+          >
+            <span
+              id="date"
+            >
+              5
+            </span>
+            <span
+              id="day"
+            >
+              WEDNESDAY
+            </span>
+          </div>,
+          <ul>
+            <li
+              className="active"
+              onClick={[Function]}
+            >
+              <span
+                className="pointer"
+              />
+              <h4
+                className="title"
+              >
+                this title
+              </h4>
+              <p
+                className="body"
+              >
+                this body
+              </p>
+              <span
+                className="date"
+              >
+                DEC
+                <br />
+                5
+              </span>
+            </li>
+          </ul>,
+        ],
+        "className": "entries",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                id="date"
+              >
+                5
+              </span>,
+              <span
+                id="day"
+              >
+                WEDNESDAY
+              </span>,
+            ],
+            "className": "today",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 5,
+                "id": "date",
+              },
+              "ref": null,
+              "rendered": 5,
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "WEDNESDAY",
+                "id": "day",
+              },
+              "ref": null,
+              "rendered": "WEDNESDAY",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className="active"
+                onClick={[Function]}
+              >
+                <span
+                  className="pointer"
+                />
+                <h4
+                  className="title"
+                >
+                  this title
+                </h4>
+                <p
+                  className="body"
+                >
+                  this body
+                </p>
+                <span
+                  className="date"
+                >
+                  DEC
+                  <br />
+                  5
+                </span>
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="pointer"
+                  />,
+                  <h4
+                    className="title"
+                  >
+                    this title
+                  </h4>,
+                  <p
+                    className="body"
+                  >
+                    this body
+                  </p>,
+                  <span
+                    className="date"
+                  >
+                    DEC
+                    <br />
+                    5
+                  </span>,
+                ],
+                "className": "active",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "pointer",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "this title",
+                    "className": "title",
+                  },
+                  "ref": null,
+                  "rendered": "this title",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "this body",
+                    "className": "body",
+                  },
+                  "ref": null,
+                  "rendered": "this body",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "DEC",
+                      <br />,
+                      5,
+                    ],
+                    "className": "date",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "DEC",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    5,
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

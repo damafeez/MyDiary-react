@@ -1,6 +1,8 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = {
+  entry: ['@babel/polyfill', path.join(__dirname, './client/index.js')],
   module: {
     rules: [
       {
@@ -24,7 +26,7 @@ module.exports = {
         use: [{
           loader: 'file-loader',
           options: {
-            name: './src/assets/[name].[ext]',
+            name: './client/assets/[name].[ext]',
             limit: 10000,
           },
         },
@@ -43,7 +45,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './src/index.html',
+      template: './client/index.html',
       filename: './index.html',
     }),
   ],

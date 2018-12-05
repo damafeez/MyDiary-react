@@ -24,4 +24,5 @@ jobs:
           command: |
             ./cc-test-reporter before-build
             npm test -- --coverage -u
-            ./cc-test-reporter after-build --exit-code $?
+            ./cc-test-reporter format-coverage -t lcov ./coverage-jest/lcov.info
+            ./cc-test-reporter upload-coverage

@@ -1,0 +1,743 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot :::update:false 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddEntry
+    entry={
+      Object {
+        "body": "this body",
+        "title": "this title",
+      }
+    }
+    scroll={[MockFunction]}
+    updateMode={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Add diary entry
+        </h2>,
+        <form
+          name="edit-entry"
+          onReset={[Function]}
+        >
+          <_default
+            handleChange={[Function]}
+            icon="icon-edit-2"
+            label="Title"
+            name="title"
+            required={true}
+            value=""
+          />
+          <_default
+            handleChange={[Function]}
+            icon="icon-file-text"
+            label="Body"
+            name="body"
+            required={true}
+            type="textarea"
+            value=""
+          />
+          <input
+            className="btn round"
+            type="submit"
+            value="Add"
+          />
+          <input
+            className="btn round cancel"
+            type="reset"
+            value="Cancel"
+          />
+        </form>,
+      ],
+      "className": "add-entry",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add diary entry",
+        },
+        "ref": null,
+        "rendered": "Add diary entry",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <_default
+              handleChange={[Function]}
+              icon="icon-edit-2"
+              label="Title"
+              name="title"
+              required={true}
+              value=""
+            />,
+            <_default
+              handleChange={[Function]}
+              icon="icon-file-text"
+              label="Body"
+              name="body"
+              required={true}
+              type="textarea"
+              value=""
+            />,
+            <input
+              className="btn round"
+              type="submit"
+              value="Add"
+            />,
+            <input
+              className="btn round cancel"
+              type="reset"
+              value="Cancel"
+            />,
+          ],
+          "name": "edit-entry",
+          "onReset": [Function],
+          "onSubmit": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "handleChange": [Function],
+              "icon": "icon-edit-2",
+              "label": "Title",
+              "name": "title",
+              "required": true,
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "handleChange": [Function],
+              "icon": "icon-file-text",
+              "label": "Body",
+              "name": "body",
+              "required": true,
+              "type": "textarea",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "btn round",
+              "disabled": undefined,
+              "type": "submit",
+              "value": "Add",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "btn round cancel",
+              "disabled": undefined,
+              "type": "reset",
+              "value": "Cancel",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Add diary entry
+          </h2>,
+          <form
+            name="edit-entry"
+            onReset={[Function]}
+          >
+            <_default
+              handleChange={[Function]}
+              icon="icon-edit-2"
+              label="Title"
+              name="title"
+              required={true}
+              value=""
+            />
+            <_default
+              handleChange={[Function]}
+              icon="icon-file-text"
+              label="Body"
+              name="body"
+              required={true}
+              type="textarea"
+              value=""
+            />
+            <input
+              className="btn round"
+              type="submit"
+              value="Add"
+            />
+            <input
+              className="btn round cancel"
+              type="reset"
+              value="Cancel"
+            />
+          </form>,
+        ],
+        "className": "add-entry",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add diary entry",
+          },
+          "ref": null,
+          "rendered": "Add diary entry",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <_default
+                handleChange={[Function]}
+                icon="icon-edit-2"
+                label="Title"
+                name="title"
+                required={true}
+                value=""
+              />,
+              <_default
+                handleChange={[Function]}
+                icon="icon-file-text"
+                label="Body"
+                name="body"
+                required={true}
+                type="textarea"
+                value=""
+              />,
+              <input
+                className="btn round"
+                type="submit"
+                value="Add"
+              />,
+              <input
+                className="btn round cancel"
+                type="reset"
+                value="Cancel"
+              />,
+            ],
+            "name": "edit-entry",
+            "onReset": [Function],
+            "onSubmit": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "handleChange": [Function],
+                "icon": "icon-edit-2",
+                "label": "Title",
+                "name": "title",
+                "required": true,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "handleChange": [Function],
+                "icon": "icon-file-text",
+                "label": "Body",
+                "name": "body",
+                "required": true,
+                "type": "textarea",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "btn round",
+                "disabled": undefined,
+                "type": "submit",
+                "value": "Add",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "btn round cancel",
+                "disabled": undefined,
+                "type": "reset",
+                "value": "Cancel",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`matches snapshot :::update:true 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddEntry
+    entry={
+      Object {
+        "body": "this body",
+        "title": "this title",
+      }
+    }
+    scroll={[MockFunction]}
+    updateMode={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Modify diary entry
+        </h2>,
+        <form
+          name="edit-entry"
+          onReset={[Function]}
+        >
+          <_default
+            handleChange={[Function]}
+            icon="icon-edit-2"
+            label="Title"
+            name="title"
+            required={true}
+            value=""
+          />
+          <_default
+            handleChange={[Function]}
+            icon="icon-file-text"
+            label="Body"
+            name="body"
+            required={true}
+            type="textarea"
+            value=""
+          />
+          <input
+            className="btn round"
+            type="submit"
+            value="Update"
+          />
+          <input
+            className="btn round cancel"
+            type="reset"
+            value="Cancel"
+          />
+        </form>,
+      ],
+      "className": "add-entry",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Modify diary entry",
+        },
+        "ref": null,
+        "rendered": "Modify diary entry",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <_default
+              handleChange={[Function]}
+              icon="icon-edit-2"
+              label="Title"
+              name="title"
+              required={true}
+              value=""
+            />,
+            <_default
+              handleChange={[Function]}
+              icon="icon-file-text"
+              label="Body"
+              name="body"
+              required={true}
+              type="textarea"
+              value=""
+            />,
+            <input
+              className="btn round"
+              type="submit"
+              value="Update"
+            />,
+            <input
+              className="btn round cancel"
+              type="reset"
+              value="Cancel"
+            />,
+          ],
+          "name": "edit-entry",
+          "onReset": [Function],
+          "onSubmit": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "handleChange": [Function],
+              "icon": "icon-edit-2",
+              "label": "Title",
+              "name": "title",
+              "required": true,
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "handleChange": [Function],
+              "icon": "icon-file-text",
+              "label": "Body",
+              "name": "body",
+              "required": true,
+              "type": "textarea",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "btn round",
+              "disabled": undefined,
+              "type": "submit",
+              "value": "Update",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "btn round cancel",
+              "disabled": undefined,
+              "type": "reset",
+              "value": "Cancel",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Modify diary entry
+          </h2>,
+          <form
+            name="edit-entry"
+            onReset={[Function]}
+          >
+            <_default
+              handleChange={[Function]}
+              icon="icon-edit-2"
+              label="Title"
+              name="title"
+              required={true}
+              value=""
+            />
+            <_default
+              handleChange={[Function]}
+              icon="icon-file-text"
+              label="Body"
+              name="body"
+              required={true}
+              type="textarea"
+              value=""
+            />
+            <input
+              className="btn round"
+              type="submit"
+              value="Update"
+            />
+            <input
+              className="btn round cancel"
+              type="reset"
+              value="Cancel"
+            />
+          </form>,
+        ],
+        "className": "add-entry",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Modify diary entry",
+          },
+          "ref": null,
+          "rendered": "Modify diary entry",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <_default
+                handleChange={[Function]}
+                icon="icon-edit-2"
+                label="Title"
+                name="title"
+                required={true}
+                value=""
+              />,
+              <_default
+                handleChange={[Function]}
+                icon="icon-file-text"
+                label="Body"
+                name="body"
+                required={true}
+                type="textarea"
+                value=""
+              />,
+              <input
+                className="btn round"
+                type="submit"
+                value="Update"
+              />,
+              <input
+                className="btn round cancel"
+                type="reset"
+                value="Cancel"
+              />,
+            ],
+            "name": "edit-entry",
+            "onReset": [Function],
+            "onSubmit": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "handleChange": [Function],
+                "icon": "icon-edit-2",
+                "label": "Title",
+                "name": "title",
+                "required": true,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "handleChange": [Function],
+                "icon": "icon-file-text",
+                "label": "Body",
+                "name": "body",
+                "required": true,
+                "type": "textarea",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "btn round",
+                "disabled": undefined,
+                "type": "submit",
+                "value": "Update",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "btn round cancel",
+                "disabled": undefined,
+                "type": "reset",
+                "value": "Cancel",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -9,14 +9,24 @@
     "start": "webpack-dev-server --open --mode development",
     "lint": "eslint . --fix",
     "test-watch": "jest --coverage --watchAll -u",
+    "start:watch": "nodemon server/index.js --exec babel-node",
     "postinstall": "npm run build"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "cron": "^1.3.0",
+    "dotenv": "^6.0.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
     "moment": "^2.22.2",
+    "morgan": "^1.9.1",
     "node-sass": "^4.10.0",
+    "pg": "^7.4.3",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^5.1.0",
@@ -27,7 +37,9 @@
     "redux-devtools-extension": "^2.13.6",
     "redux-mock-store": "^1.5.3",
     "redux-thunk": "^2.3.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "swagger-ui-express": "^3.0.10",
+    "web-push": "^3.3.2"
   },
   "jest": {
     "moduleNameMapper": {
@@ -36,24 +48,30 @@
     },
     "setupFiles": [
       "<rootDir>/config/setupTests.js"
-    ]
+    ],
+    "coverageDirectory": "coverage-jest",
+    "testPathIgnorePatterns": ["\\\\node_modules\\\\", "./server"]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.1.6",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
-    "babel-jest": "^23.6.0",
+    "babel-jest": "^23.4.2",
     "babel-loader": "^8.0.4",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
     "css-loader": "^1.0.1",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
