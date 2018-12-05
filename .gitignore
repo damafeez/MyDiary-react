@@ -5,6 +5,7 @@
 
 # testing
 /coverage
+/coverage-jest
 
 # production
 /dist

@@ -48,7 +48,9 @@
     },
     "setupFiles": [
       "<rootDir>/config/setupTests.js"
-    ]
+    ],
+    "coverageDirectory": "coverage-jest",
+    "testPathIgnorePatterns": ["\\\\node_modules\\\\", "./server"]
   },
   "keywords": [],
   "author": "",
