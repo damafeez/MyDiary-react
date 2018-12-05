@@ -1,6 +1,6 @@
+import path from 'path';
 import express from 'express';
 import bodyParser from 'body-parser';
-import cors from 'cors';
 import morgan from 'morgan';
 import dotenv from 'dotenv';
 import webPush from 'web-push';
@@ -16,7 +16,6 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 app
-  .use(cors())
   .use(morgan('dev'))
   .use(bodyParser.json())
   .use(bodyParser.urlencoded({ extended: true }));
@@ -29,10 +28,16 @@ webPush.setVapidDetails(
   process.env.VAPID_PRIVATE_KEY,
 );
 dailyReminder().start();
+
+app.use(express.static(path.join(__dirname, '../dist')));
 console.log('next dates', dailyReminder().nextDates());
 
 app.use('/api/v1', api);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(documentation, { customCss: '.swagger-ui .topbar { display: none }' }));
+
+app.use('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dist/index.html'));
+});
 
 app.listen(PORT, () => console.log('server status', `server is running on port ${PORT}, NODE_ENV: ${process.env.NODE_ENV}`));
 
