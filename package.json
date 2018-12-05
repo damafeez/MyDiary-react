@@ -8,7 +8,8 @@
     "build": "rimraf dist && webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "lint": "eslint . --fix",
-    "test-watch": "jest --coverage --watchAll -u"
+    "test-watch": "jest --coverage --watchAll -u",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "axios": "^0.18.0",
