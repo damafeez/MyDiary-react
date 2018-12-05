@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'https://api-mydiary.herokuapp.com/api/v1';
+const baseURL = 'http://localhost:3000/api/v1';
 export default class API {
   constructor(token) {
     this.UPDATE_TOKEN(token);

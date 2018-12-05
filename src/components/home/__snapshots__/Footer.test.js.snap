@@ -3,7 +3,7 @@
 exports[`matches snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Unknown
+  Symbol(enzyme.__unrendered__): <_default
     currentIndex={1}
     entries={
       Array [
@@ -542,7 +542,7 @@ ShallowWrapper {
 exports[`matches snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Unknown
+  Symbol(enzyme.__unrendered__): <_default
     currentIndex={1}
     entries={
       Array [

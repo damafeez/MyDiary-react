@@ -3,7 +3,7 @@
 exports[`matches snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Unknown
+  Symbol(enzyme.__unrendered__): <_default
     currentIndex={0}
     entries={
       Array [
@@ -173,7 +173,7 @@ ShallowWrapper {
 exports[`matches snapshot:::entries:[] 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Unknown
+  Symbol(enzyme.__unrendered__): <_default
     currentIndex={0}
     entries={Array []}
   />,
@@ -330,7 +330,7 @@ ShallowWrapper {
 exports[`matches snapshot:::error 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Unknown
+  Symbol(enzyme.__unrendered__): <_default
     currentIndex={0}
     entries={Array []}
     error={true}
@@ -484,7 +484,7 @@ ShallowWrapper {
 exports[`matches snapshot:::loading 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Unknown
+  Symbol(enzyme.__unrendered__): <_default
     currentIndex={0}
     entries={Array []}
     loading={true}
