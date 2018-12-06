@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "jest -u",
+    "test2": "nyc mocha server/tests/ --require babel-core/register -t 5000 --exit",
     "build:client": "webpack --mode production",
     "build:server": "babel --ignore ./server/tests -d ./dist-server ./server -s",
     "build:concurrently": "concurrently \"npm run build:server\" \"npm run build:client\"",
-    "build": "rm -rf dist-client && rm -rf dist-server dist && npm run build:concurrently",
+    "build": "rm -rf dist-client dist-server && npm run build:concurrently",
     "start:dev": "webpack-dev-server --open --mode development",
     "start": "node dist-server/index.js",
-    "lint": "eslint . --fix",
+    "lint": "eslint --ext .js server",
+    "lint:watch": "nodemon --exec 'eslint --ext .js server'",
+    "lint:fix": "eslint --ext .js server --fix",
     "test-watch": "jest --coverage --watchAll -u",
     "start:watch": "nodemon server/index.js --exec babel-node",
     "postinstall": "npm run build"
