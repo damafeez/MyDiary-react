@@ -24,11 +24,6 @@ export default class AuthCard extends Component {
     signupFullName: '',
   });
 
-  signupCallback = () => {
-    this.signupReset();
-    this.toggleView('login');
-  }
-
   render() {
     const {
       activeView,
@@ -59,7 +54,7 @@ export default class AuthCard extends Component {
           </div>
           <div className={`login-signup_signup ${activeView === 'signup' ? 'active' : ''}`}>
             <h2>SIGN UP</h2>
-            <form onSubmit={(e) => signup(e, this.signupCallback)} name="signupForm">
+            <form onSubmit={signup} name="signupForm">
               <InputBox handleChange={this.handleChange} value={signupFullName} label="Full Name" icon="icon-user" name="signupFullName" required />
               <InputBox handleChange={this.handleChange} value={signupUsername} label="Username" icon="icon-user-check" name="signupUsername" required />
               <InputBox type="email" handleChange={this.handleChange} value={signupEmail} label="Email" icon="icon-at-sign" name="signupEmail" required />

@@ -14,7 +14,7 @@ class ProfileImageUploader extends Component {
     const reader = new FileReader();
     reader.onloadend = () => {
       this.upload(file);
-      this.setState({ imagePreview: reader.result });
+      this.setPreview(reader.result);
     };
     if (file) reader.readAsDataURL(file);
   }
@@ -23,8 +23,10 @@ class ProfileImageUploader extends Component {
     const { uploadImage } = this.props;
     const imgFile = new FormData();
     imgFile.append('profileImage', image);
-    uploadImage(imgFile);
+    uploadImage(imgFile, this.setPreview);
   }
+
+  setPreview = (preview) => this.setState({ imagePreview: preview });
 
   render() {
     const {
@@ -37,8 +39,7 @@ class ProfileImageUploader extends Component {
         className="profile-image profile-image-uploader"
         style={{ backgroundImage: `linear-gradient(rgba(150, 150, 150, 0.4), rgba(150, 150, 150, 0.4)), url(${imagePreview || profileImage || userPlaceholderImage})` }}
       >
-        {profileImage && <span onClick={() => this.upload(null)} className="profile-image-uploader_cancel hoverable centralizer">x</span>}
-        <input type="file" onChange={this.handleChange} id="uploader" accept=".png, .jpg, .jpeg" />
+        <input disabled={loading} type="file" onChange={this.handleChange} id="uploader" accept=".png, .jpg, .jpeg" />
         <label htmlFor="uploader">
           <svg className={`icon ${loading ? 'spin' : ''}`}>
             <use xlinkHref={`${icons}#camera`} />

@@ -15,16 +15,15 @@ export class Authentication extends Component {
     });
   }
 
-  signupHandler = async (event, callback) => {
+  signupHandler = (event) => {
     event.preventDefault();
     const { signup } = this.props;
-    const response = await signup({
+    signup({
       fullName: event.target.signupFullName.value,
       username: event.target.signupUsername.value,
       password: event.target.signupPassword.value,
       email: event.target.signupEmail.value,
     });
-    if (!response.error) callback();
   }
 
   render() {

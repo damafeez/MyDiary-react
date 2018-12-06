@@ -26,6 +26,10 @@ export default {
     if (payload === 'error') throw new CustomAPIError();
     return { data: { data: { user: 'user' } } };
   },
+  updateProfileImage(payload) {
+    if (payload === 'error') throw new CustomAPIError();
+    return { data: { data: { user: 'user' } } };
+  },
   updatePassword(payload) {
     if (payload === 'error') throw new CustomAPIError();
     return { data: { data: { user: 'user' } } };

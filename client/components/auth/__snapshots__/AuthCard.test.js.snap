@@ -4,7 +4,8 @@ exports[`matches snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <AuthCard
-    signup={[Function]}
+    login={[MockFunction]}
+    signup={[MockFunction]}
     value="name"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -32,6 +33,7 @@ ShallowWrapper {
             </h2>
             <form
               name="loginForm"
+              onSubmit={[MockFunction]}
             >
               <_default
                 handleChange={[Function]}
@@ -76,7 +78,7 @@ ShallowWrapper {
             </h2>
             <form
               name="signupForm"
-              onSubmit={[Function]}
+              onSubmit={[MockFunction]}
             >
               <_default
                 handleChange={[Function]}
@@ -164,6 +166,7 @@ ShallowWrapper {
               </h2>
               <form
                 name="loginForm"
+                onSubmit={[MockFunction]}
               >
                 <_default
                   handleChange={[Function]}
@@ -208,7 +211,7 @@ ShallowWrapper {
               </h2>
               <form
                 name="signupForm"
-                onSubmit={[Function]}
+                onSubmit={[MockFunction]}
               >
                 <_default
                   handleChange={[Function]}
@@ -278,6 +281,7 @@ ShallowWrapper {
                 </h2>,
                 <form
                   name="loginForm"
+                  onSubmit={[MockFunction]}
                 >
                   <_default
                     handleChange={[Function]}
@@ -361,7 +365,7 @@ ShallowWrapper {
                     </button>,
                   ],
                   "name": "loginForm",
-                  "onSubmit": undefined,
+                  "onSubmit": [MockFunction],
                 },
                 "ref": null,
                 "rendered": Array [
@@ -464,7 +468,7 @@ ShallowWrapper {
                 </h2>,
                 <form
                   name="signupForm"
-                  onSubmit={[Function]}
+                  onSubmit={[MockFunction]}
                 >
                   <_default
                     handleChange={[Function]}
@@ -582,7 +586,7 @@ ShallowWrapper {
                     </button>,
                   ],
                   "name": "signupForm",
-                  "onSubmit": [Function],
+                  "onSubmit": [MockFunction],
                 },
                 "ref": null,
                 "rendered": Array [
@@ -809,6 +813,7 @@ ShallowWrapper {
               </h2>
               <form
                 name="loginForm"
+                onSubmit={[MockFunction]}
               >
                 <_default
                   handleChange={[Function]}
@@ -853,7 +858,7 @@ ShallowWrapper {
               </h2>
               <form
                 name="signupForm"
-                onSubmit={[Function]}
+                onSubmit={[MockFunction]}
               >
                 <_default
                   handleChange={[Function]}
@@ -941,6 +946,7 @@ ShallowWrapper {
                 </h2>
                 <form
                   name="loginForm"
+                  onSubmit={[MockFunction]}
                 >
                   <_default
                     handleChange={[Function]}
@@ -985,7 +991,7 @@ ShallowWrapper {
                 </h2>
                 <form
                   name="signupForm"
-                  onSubmit={[Function]}
+                  onSubmit={[MockFunction]}
                 >
                   <_default
                     handleChange={[Function]}
@@ -1055,6 +1061,7 @@ ShallowWrapper {
                   </h2>,
                   <form
                     name="loginForm"
+                    onSubmit={[MockFunction]}
                   >
                     <_default
                       handleChange={[Function]}
@@ -1138,7 +1145,7 @@ ShallowWrapper {
                       </button>,
                     ],
                     "name": "loginForm",
-                    "onSubmit": undefined,
+                    "onSubmit": [MockFunction],
                   },
                   "ref": null,
                   "rendered": Array [
@@ -1241,7 +1248,7 @@ ShallowWrapper {
                   </h2>,
                   <form
                     name="signupForm"
-                    onSubmit={[Function]}
+                    onSubmit={[MockFunction]}
                   >
                     <_default
                       handleChange={[Function]}
@@ -1359,7 +1366,7 @@ ShallowWrapper {
                       </button>,
                     ],
                     "name": "signupForm",
-                    "onSubmit": [Function],
+                    "onSubmit": [MockFunction],
                   },
                   "ref": null,
                   "rendered": Array [
@@ -1593,7 +1600,20 @@ exports[`matches snapshot:::click:loginP 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <AuthCard
-    signup={[Function]}
+    login={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    signup={[MockFunction]}
     value="name"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -1621,6 +1641,19 @@ ShallowWrapper {
             </h2>
             <form
               name="loginForm"
+              onSubmit={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                  "results": Array [
+                    Object {
+                      "isThrow": false,
+                      "value": undefined,
+                    },
+                  ],
+                }
+              }
             >
               <_default
                 handleChange={[Function]}
@@ -1665,7 +1698,7 @@ ShallowWrapper {
             </h2>
             <form
               name="signupForm"
-              onSubmit={[Function]}
+              onSubmit={[MockFunction]}
             >
               <_default
                 handleChange={[Function]}
@@ -1753,6 +1786,19 @@ ShallowWrapper {
               </h2>
               <form
                 name="loginForm"
+                onSubmit={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [],
+                    ],
+                    "results": Array [
+                      Object {
+                        "isThrow": false,
+                        "value": undefined,
+                      },
+                    ],
+                  }
+                }
               >
                 <_default
                   handleChange={[Function]}
@@ -1797,7 +1843,7 @@ ShallowWrapper {
               </h2>
               <form
                 name="signupForm"
-                onSubmit={[Function]}
+                onSubmit={[MockFunction]}
               >
                 <_default
                   handleChange={[Function]}
@@ -1867,6 +1913,19 @@ ShallowWrapper {
                 </h2>,
                 <form
                   name="loginForm"
+                  onSubmit={
+                    [MockFunction] {
+                      "calls": Array [
+                        Array [],
+                      ],
+                      "results": Array [
+                        Object {
+                          "isThrow": false,
+                          "value": undefined,
+                        },
+                      ],
+                    }
+                  }
                 >
                   <_default
                     handleChange={[Function]}
@@ -1950,7 +2009,17 @@ ShallowWrapper {
                     </button>,
                   ],
                   "name": "loginForm",
-                  "onSubmit": undefined,
+                  "onSubmit": [MockFunction] {
+                    "calls": Array [
+                      Array [],
+                    ],
+                    "results": Array [
+                      Object {
+                        "isThrow": false,
+                        "value": undefined,
+                      },
+                    ],
+                  },
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2053,7 +2122,7 @@ ShallowWrapper {
                 </h2>,
                 <form
                   name="signupForm"
-                  onSubmit={[Function]}
+                  onSubmit={[MockFunction]}
                 >
                   <_default
                     handleChange={[Function]}
@@ -2171,7 +2240,7 @@ ShallowWrapper {
                     </button>,
                   ],
                   "name": "signupForm",
-                  "onSubmit": [Function],
+                  "onSubmit": [MockFunction],
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2398,6 +2467,19 @@ ShallowWrapper {
               </h2>
               <form
                 name="loginForm"
+                onSubmit={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [],
+                    ],
+                    "results": Array [
+                      Object {
+                        "isThrow": false,
+                        "value": undefined,
+                      },
+                    ],
+                  }
+                }
               >
                 <_default
                   handleChange={[Function]}
@@ -2442,7 +2524,7 @@ ShallowWrapper {
               </h2>
               <form
                 name="signupForm"
-                onSubmit={[Function]}
+                onSubmit={[MockFunction]}
               >
                 <_default
                   handleChange={[Function]}
@@ -2530,6 +2612,19 @@ ShallowWrapper {
                 </h2>
                 <form
                   name="loginForm"
+                  onSubmit={
+                    [MockFunction] {
+                      "calls": Array [
+                        Array [],
+                      ],
+                      "results": Array [
+                        Object {
+                          "isThrow": false,
+                          "value": undefined,
+                        },
+                      ],
+                    }
+                  }
                 >
                   <_default
                     handleChange={[Function]}
@@ -2574,7 +2669,7 @@ ShallowWrapper {
                 </h2>
                 <form
                   name="signupForm"
-                  onSubmit={[Function]}
+                  onSubmit={[MockFunction]}
                 >
                   <_default
                     handleChange={[Function]}
@@ -2644,6 +2739,19 @@ ShallowWrapper {
                   </h2>,
                   <form
                     name="loginForm"
+                    onSubmit={
+                      [MockFunction] {
+                        "calls": Array [
+                          Array [],
+                        ],
+                        "results": Array [
+                          Object {
+                            "isThrow": false,
+                            "value": undefined,
+                          },
+                        ],
+                      }
+                    }
                   >
                     <_default
                       handleChange={[Function]}
@@ -2727,7 +2835,17 @@ ShallowWrapper {
                       </button>,
                     ],
                     "name": "loginForm",
-                    "onSubmit": undefined,
+                    "onSubmit": [MockFunction] {
+                      "calls": Array [
+                        Array [],
+                      ],
+                      "results": Array [
+                        Object {
+                          "isThrow": false,
+                          "value": undefined,
+                        },
+                      ],
+                    },
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2830,7 +2948,7 @@ ShallowWrapper {
                   </h2>,
                   <form
                     name="signupForm"
-                    onSubmit={[Function]}
+                    onSubmit={[MockFunction]}
                   >
                     <_default
                       handleChange={[Function]}
@@ -2948,7 +3066,7 @@ ShallowWrapper {
                       </button>,
                     ],
                     "name": "signupForm",
-                    "onSubmit": [Function],
+                    "onSubmit": [MockFunction],
                   },
                   "ref": null,
                   "rendered": Array [
@@ -3182,7 +3300,20 @@ exports[`matches snapshot:::click:signupP 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <AuthCard
-    signup={[Function]}
+    login={[MockFunction]}
+    signup={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
     value="name"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -3210,6 +3341,7 @@ ShallowWrapper {
             </h2>
             <form
               name="loginForm"
+              onSubmit={[MockFunction]}
             >
               <_default
                 handleChange={[Function]}
@@ -3254,7 +3386,19 @@ ShallowWrapper {
             </h2>
             <form
               name="signupForm"
-              onSubmit={[Function]}
+              onSubmit={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                  "results": Array [
+                    Object {
+                      "isThrow": false,
+                      "value": undefined,
+                    },
+                  ],
+                }
+              }
             >
               <_default
                 handleChange={[Function]}
@@ -3342,6 +3486,7 @@ ShallowWrapper {
               </h2>
               <form
                 name="loginForm"
+                onSubmit={[MockFunction]}
               >
                 <_default
                   handleChange={[Function]}
@@ -3386,7 +3531,19 @@ ShallowWrapper {
               </h2>
               <form
                 name="signupForm"
-                onSubmit={[Function]}
+                onSubmit={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [],
+                    ],
+                    "results": Array [
+                      Object {
+                        "isThrow": false,
+                        "value": undefined,
+                      },
+                    ],
+                  }
+                }
               >
                 <_default
                   handleChange={[Function]}
@@ -3456,6 +3613,7 @@ ShallowWrapper {
                 </h2>,
                 <form
                   name="loginForm"
+                  onSubmit={[MockFunction]}
                 >
                   <_default
                     handleChange={[Function]}
@@ -3539,7 +3697,7 @@ ShallowWrapper {
                     </button>,
                   ],
                   "name": "loginForm",
-                  "onSubmit": undefined,
+                  "onSubmit": [MockFunction],
                 },
                 "ref": null,
                 "rendered": Array [
@@ -3642,7 +3800,19 @@ ShallowWrapper {
                 </h2>,
                 <form
                   name="signupForm"
-                  onSubmit={[Function]}
+                  onSubmit={
+                    [MockFunction] {
+                      "calls": Array [
+                        Array [],
+                      ],
+                      "results": Array [
+                        Object {
+                          "isThrow": false,
+                          "value": undefined,
+                        },
+                      ],
+                    }
+                  }
                 >
                   <_default
                     handleChange={[Function]}
@@ -3760,7 +3930,17 @@ ShallowWrapper {
                     </button>,
                   ],
                   "name": "signupForm",
-                  "onSubmit": [Function],
+                  "onSubmit": [MockFunction] {
+                    "calls": Array [
+                      Array [],
+                    ],
+                    "results": Array [
+                      Object {
+                        "isThrow": false,
+                        "value": undefined,
+                      },
+                    ],
+                  },
                 },
                 "ref": null,
                 "rendered": Array [
@@ -3987,6 +4167,7 @@ ShallowWrapper {
               </h2>
               <form
                 name="loginForm"
+                onSubmit={[MockFunction]}
               >
                 <_default
                   handleChange={[Function]}
@@ -4031,7 +4212,19 @@ ShallowWrapper {
               </h2>
               <form
                 name="signupForm"
-                onSubmit={[Function]}
+                onSubmit={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [],
+                    ],
+                    "results": Array [
+                      Object {
+                        "isThrow": false,
+                        "value": undefined,
+                      },
+                    ],
+                  }
+                }
               >
                 <_default
                   handleChange={[Function]}
@@ -4119,6 +4312,7 @@ ShallowWrapper {
                 </h2>
                 <form
                   name="loginForm"
+                  onSubmit={[MockFunction]}
                 >
                   <_default
                     handleChange={[Function]}
@@ -4163,7 +4357,19 @@ ShallowWrapper {
                 </h2>
                 <form
                   name="signupForm"
-                  onSubmit={[Function]}
+                  onSubmit={
+                    [MockFunction] {
+                      "calls": Array [
+                        Array [],
+                      ],
+                      "results": Array [
+                        Object {
+                          "isThrow": false,
+                          "value": undefined,
+                        },
+                      ],
+                    }
+                  }
                 >
                   <_default
                     handleChange={[Function]}
@@ -4233,6 +4439,7 @@ ShallowWrapper {
                   </h2>,
                   <form
                     name="loginForm"
+                    onSubmit={[MockFunction]}
                   >
                     <_default
                       handleChange={[Function]}
@@ -4316,7 +4523,7 @@ ShallowWrapper {
                       </button>,
                     ],
                     "name": "loginForm",
-                    "onSubmit": undefined,
+                    "onSubmit": [MockFunction],
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4419,7 +4626,19 @@ ShallowWrapper {
                   </h2>,
                   <form
                     name="signupForm"
-                    onSubmit={[Function]}
+                    onSubmit={
+                      [MockFunction] {
+                        "calls": Array [
+                          Array [],
+                        ],
+                        "results": Array [
+                          Object {
+                            "isThrow": false,
+                            "value": undefined,
+                          },
+                        ],
+                      }
+                    }
                   >
                     <_default
                       handleChange={[Function]}
@@ -4537,7 +4756,17 @@ ShallowWrapper {
                       </button>,
                     ],
                     "name": "signupForm",
-                    "onSubmit": [Function],
+                    "onSubmit": [MockFunction] {
+                      "calls": Array [
+                        Array [],
+                      ],
+                      "results": Array [
+                        Object {
+                          "isThrow": false,
+                          "value": undefined,
+                        },
+                      ],
+                    },
                   },
                   "ref": null,
                   "rendered": Array [

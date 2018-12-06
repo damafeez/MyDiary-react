@@ -17,6 +17,9 @@
   }
   input {
     display: none;
+    &:disabled ~ label .icon {
+      cursor: initial;
+    }
   }
   .icon {
     width: 24px;
