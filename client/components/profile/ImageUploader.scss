@@ -1,0 +1,28 @@
+.profile-image-uploader {
+  background: linear-gradient(rgba(gray, .4), rgba(gray, .4)), url(https://res.cloudinary.com/drmmqcxkc/image/upload/v1541505049/user.jpg);
+  background-size: cover;
+  position: relative;
+  &_cancel {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 5;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.2);
+    color: red;
+    background: whitesmoke;
+  }
+  input {
+    display: none;
+  }
+  .icon {
+    width: 24px;
+    height: 24px;
+    padding: 25px;
+    box-sizing: content-box;
+    cursor: pointer;
+  }
+}

@@ -84,6 +84,19 @@
 }
 .info-settings .settings > div {
   width: 100%;
+  &.profile-image {
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 40px;
+    box-shadow: 0 16px 25px -14px rgba(60, 72, 88, 0.6);
+    .icon.spin {
+      animation: spin 3.5s ease-in-out infinite;
+    }
+  }
 }
 .info-settings .settings > div > .header {
   cursor: pointer;

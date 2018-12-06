@@ -4,6 +4,9 @@ const signupLoading = (payload = true) => ({ type: types.SIGN_UP_LOADING, payloa
 const loginLoading = (payload = true) => ({ type: types.LOGIN_LOADING, payload });
 const profileUpdateLoading = (payload = true) => ({ type: types.PROFILE_UPDATE_LOADING, payload });
 const setNotification = (payload) => ({ type: types.SET_NOTIFICATION, payload });
+const profileImageUpdateLoading = (payload = true) => ({
+  type: types.PROFILE_IMAGE_UPDATE_LOADING, payload,
+});
 const passwordUpdateLoading = (payload = true) => ({
   type: types.PASSWORD_UPDATE_LOADING,
   payload,
@@ -53,6 +56,21 @@ export const updateProfile = (payload) => async (dispatch, getState, API) => {
   } catch (e) {
     const error = e.response ? e.response.data.error[0] : 'Error updating profile, please try again';
     dispatch(profileUpdateLoading(false));
+    dispatch(setNotification({ message: error, status: 'error' }));
+    return { error };
+  }
+};
+
+export const updateProfileImage = (payload) => async (dispatch, getState, API) => {
+  try {
+    dispatch(profileImageUpdateLoading());
+    const request = await API.updateProfileImage(payload);
+    const { imageURL } = request.data.data;
+    localStorage.setItem('user', JSON.stringify({ ...getState().auth.user, ...imageURL }));
+    dispatch({ type: types.PROFILE_IMAGE_UPDATE, payload: imageURL });
+  } catch (e) {
+    const error = e.response ? e.response.data.error[0] : 'Error updating profile image, please try again';
+    dispatch(profileImageUpdateLoading(false));
     dispatch(setNotification({ message: error, status: 'error' }));
     return { error };
   }

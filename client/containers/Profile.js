@@ -4,6 +4,7 @@ import scrollAction from '../actions/scroll';
 import { getEntries as getEntriesAction } from '../actions/entries';
 import { updateProfile as profileUpdate, updatePassword as passwordUpdate, signout as signouAction } from '../actions/auth';
 import InputBox from '../components/shared/inputBox';
+import ImageUploader from '../components/profile/ImageUploader';
 import icons from '../assets/icons.svg';
 import './Profile.scss';
 
@@ -52,6 +53,8 @@ export class Profile extends Component {
     }
   }
 
+  uploadImage = (file) => {};
+
   render() {
     const {
       fullName,
@@ -65,6 +68,7 @@ export class Profile extends Component {
       entries,
       user,
       profileUpdateLoading,
+      profileImageUpdateLoading,
       passwordUpdateLoading,
       signout,
     } = this.props;
@@ -72,6 +76,7 @@ export class Profile extends Component {
       <div className="profile">
         <section className="info-settings">
           <div className="settings">
+            <ImageUploader name="image" uploadImage={this.uploadImage} loading={profileImageUpdateLoading} profileImage={user.imageURL} />
             <div>
               <div className="header" onClick={() => this.switchView('edit-profile')}>
                 <span>EDIT PROFILE</span>

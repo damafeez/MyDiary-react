@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "proxy": "https://my-diary-reactt.herokuapp.com",
   "scripts": {
     "test": "jest -u",
     "test2": "nyc mocha server/tests/ --require babel-core/register -t 5000 --exit",

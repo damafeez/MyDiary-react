@@ -108,6 +108,14 @@ button {
     transform: scale3d(1, 1, 1);
   }
 }
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 .main-body {
   background-color: var(--background-color);
