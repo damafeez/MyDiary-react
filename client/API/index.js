@@ -28,6 +28,10 @@ export default class API {
     return this.api.put('/auth/edit', payload);
   }
 
+  updateProfileImage(payload) {
+    return this.api.put('/auth/image', payload);
+  }
+
   updatePassword(payload) {
     return this.api.put('/auth/password', payload);
   }

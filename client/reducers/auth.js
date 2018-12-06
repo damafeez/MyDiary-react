@@ -3,10 +3,12 @@ import initialState from '../initialState';
 
 export default (state = initialState.auth, action) => {
   switch (action.type) {
-    case types.LOGIN:
+    case types.SET_USER:
       return {
         ...state,
         user: action.payload,
+        loginLoading: false,
+        signupLoading: false,
       };
     case types.LOGIN_LOADING:
       return {
@@ -33,6 +35,17 @@ export default (state = initialState.auth, action) => {
         ...state,
         user: { ...state.user, ...action.payload },
         profileUpdateLoading: false,
+      };
+    case types.PROFILE_IMAGE_UPDATE_LOADING:
+      return {
+        ...state,
+        profileImageUpdateLoading: action.payload,
+      };
+    case types.PROFILE_IMAGE_UPDATE:
+      return {
+        ...state,
+        user: { ...state.user, ...action.payload },
+        profileImageUpdateLoading: false,
       };
     case types.SIGN_OUT:
       return {

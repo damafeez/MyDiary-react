@@ -2,6 +2,7 @@ import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 import webPush from 'web-push';
 import { CronJob } from 'cron';
+import cloudinary from 'cloudinary';
 import client from './connection';
 
 dotenv.config();
@@ -59,6 +60,21 @@ const sendResponse = ({
     error,
   });
 };
+cloudinary.config({
+  cloud_name: process.env.CLOUD_NAME,
+  api_key: process.env.CLOUD_APIKEY,
+  api_secret: process.env.CLOUD_APISECRET,
+});
+
+const imageUploader = async (path) => {
+  try {
+    const response = await cloudinary.v2.uploader.upload(path);
+    return response.secure_url;
+  } catch (error) {
+    return error;
+  }
+};
+
 const dailyReminder = () => new CronJob('0 0 11-18 * * *', async () => {
   const subscriptions = await client.query('SELECT * FROM "notificationStatus" WHERE status=true AND cardinality(subscription) > 0');
   console.log('I ran', subscriptions.rows, Date());
@@ -89,4 +105,5 @@ export {
   dataType,
   sendResponse,
   dailyReminder,
+  imageUploader,
 };

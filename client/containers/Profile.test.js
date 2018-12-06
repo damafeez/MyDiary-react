@@ -29,18 +29,18 @@ it('matches snapshot', () => {
   expect(wrapper).toMatchSnapshot();
 });
 
-it('matches snapshot:::entries.length > 1', () => {
-  const { wrapper } = setup({ entries: [{ fullName: 'a', email: 'email' }, { fullName: 'b', email: 'emailb' }] });
-  wrapper.find('.settings > div:first-child div.header').simulate('click');
-  wrapper.find('.settings > div:first-child div.header').simulate('click');
-  wrapper.find('.settings > div:first-child + div div.header').simulate('click');
-  wrapper.find('.settings > div:first-child + div div.header').simulate('click');
-  expect(wrapper).toMatchSnapshot();
-});
+// it('matches snapshot:::entries.length > 1', () => {
+//   const { wrapper } = setup({ entries: [{ fullName: 'a', email: 'email' }, { fullName: 'b', email: 'emailb' }] });
+//   wrapper.find('.settings > div:first-child div.header').simulate('click');
+//   wrapper.find('.settings > div:first-child div.header').simulate('click');
+//   wrapper.find('.settings > div:first-child + div div.header').simulate('click');
+//   wrapper.find('.settings > div:first-child + div div.header').simulate('click');
+//   expect(wrapper).toMatchSnapshot();
+// });
 
-it('matches snapshot:::entries.length > 1', () => {
-  const { wrapper } = setup({ entries: [{ fullName: 'a', email: 'email' }, { fullName: 'b', email: 'emailb' }] });
-  wrapper.find('.settings > div:first-child form').simulate('submit', mockEvent);
-  wrapper.find('.settings > div:first-child + div form').simulate('submit', mockEvent);
-  expect(wrapper).toMatchSnapshot();
-});
+// it('matches snapshot:::entries.length > 1', () => {
+//   const { wrapper } = setup({ entries: [{ fullName: 'a', email: 'email' }, { fullName: 'b', email: 'emailb' }] });
+//   wrapper.find('.settings > div:first-child form').simulate('submit', mockEvent);
+//   wrapper.find('.settings > div:first-child + div form').simulate('submit', mockEvent);
+//   expect(wrapper).toMatchSnapshot();
+// });

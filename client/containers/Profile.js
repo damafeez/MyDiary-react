@@ -2,8 +2,14 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import scrollAction from '../actions/scroll';
 import { getEntries as getEntriesAction } from '../actions/entries';
-import { updateProfile as profileUpdate, updatePassword as passwordUpdate, signout as signouAction } from '../actions/auth';
+import {
+  updateProfile as profileUpdate,
+  updateProfileImage as profileImageUpdate,
+  updatePassword as passwordUpdate,
+  signout as signoutAction,
+} from '../actions/auth';
 import InputBox from '../components/shared/inputBox';
+import ImageUploader from '../components/profile/ImageUploader';
 import icons from '../assets/icons.svg';
 import './Profile.scss';
 
@@ -65,13 +71,16 @@ export class Profile extends Component {
       entries,
       user,
       profileUpdateLoading,
+      profileImageUpdateLoading,
       passwordUpdateLoading,
       signout,
+      updateProfileImage,
     } = this.props;
     return (
       <div className="profile">
         <section className="info-settings">
           <div className="settings">
+            <ImageUploader name="image" uploadImage={updateProfileImage} loading={profileImageUpdateLoading} profileImage={user.image} />
             <div>
               <div className="header" onClick={() => this.switchView('edit-profile')}>
                 <span>EDIT PROFILE</span>
@@ -122,6 +131,7 @@ const mapStateToProps = (state) => ({
   entries: state.entries.entries,
   user: state.auth.user,
   profileUpdateLoading: state.auth.profileUpdateLoading,
+  profileImageUpdateLoading: state.auth.profileImageUpdateLoading,
   passwordUpdateLoading: state.auth.passwordUpdateLoading,
 });
 
@@ -129,6 +139,7 @@ export default connect(mapStateToProps, {
   scroll: scrollAction,
   getEntries: getEntriesAction,
   updateProfile: profileUpdate,
+  updateProfileImage: profileImageUpdate,
   updatePassword: passwordUpdate,
-  signout: signouAction,
+  signout: signoutAction,
 })(Profile);

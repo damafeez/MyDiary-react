@@ -1,0 +1,653 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProfileImageUploader
+    value="name"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <input
+          accept=".png, .jpg, .jpeg"
+          id="uploader"
+          onChange={[Function]}
+          type="file"
+        />,
+        <label
+          htmlFor="uploader"
+        >
+          <svg
+            className="icon "
+          >
+            <use
+              xlinkHref="[object Object]#camera"
+            />
+          </svg>
+        </label>,
+      ],
+      "className": "profile-image profile-image-uploader",
+      "style": Object {
+        "backgroundImage": "linear-gradient(rgba(150, 150, 150, 0.4), rgba(150, 150, 150, 0.4)), url(https://res.cloudinary.com/drmmqcxkc/image/upload/v1541506955/user-placeholder.png)",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "accept": ".png, .jpg, .jpeg",
+          "disabled": undefined,
+          "id": "uploader",
+          "onChange": [Function],
+          "type": "file",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <svg
+            className="icon "
+          >
+            <use
+              xlinkHref="[object Object]#camera"
+            />
+          </svg>,
+          "htmlFor": "uploader",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <use
+              xlinkHref="[object Object]#camera"
+            />,
+            "className": "icon ",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "xlinkHref": "[object Object]#camera",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "use",
+          },
+          "type": "svg",
+        },
+        "type": "label",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <input
+            accept=".png, .jpg, .jpeg"
+            id="uploader"
+            onChange={[Function]}
+            type="file"
+          />,
+          <label
+            htmlFor="uploader"
+          >
+            <svg
+              className="icon "
+            >
+              <use
+                xlinkHref="[object Object]#camera"
+              />
+            </svg>
+          </label>,
+        ],
+        "className": "profile-image profile-image-uploader",
+        "style": Object {
+          "backgroundImage": "linear-gradient(rgba(150, 150, 150, 0.4), rgba(150, 150, 150, 0.4)), url(https://res.cloudinary.com/drmmqcxkc/image/upload/v1541506955/user-placeholder.png)",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "accept": ".png, .jpg, .jpeg",
+            "disabled": undefined,
+            "id": "uploader",
+            "onChange": [Function],
+            "type": "file",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <svg
+              className="icon "
+            >
+              <use
+                xlinkHref="[object Object]#camera"
+              />
+            </svg>,
+            "htmlFor": "uploader",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <use
+                xlinkHref="[object Object]#camera"
+              />,
+              "className": "icon ",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "xlinkHref": "[object Object]#camera",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "use",
+            },
+            "type": "svg",
+          },
+          "type": "label",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`matches snapshot:::loading: 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProfileImageUploader
+    loading={true}
+    value="name"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <input
+          accept=".png, .jpg, .jpeg"
+          disabled={true}
+          id="uploader"
+          onChange={[Function]}
+          type="file"
+        />,
+        <label
+          htmlFor="uploader"
+        >
+          <svg
+            className="icon spin"
+          >
+            <use
+              xlinkHref="[object Object]#camera"
+            />
+          </svg>
+        </label>,
+      ],
+      "className": "profile-image profile-image-uploader",
+      "style": Object {
+        "backgroundImage": "linear-gradient(rgba(150, 150, 150, 0.4), rgba(150, 150, 150, 0.4)), url(https://res.cloudinary.com/drmmqcxkc/image/upload/v1541506955/user-placeholder.png)",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "accept": ".png, .jpg, .jpeg",
+          "disabled": true,
+          "id": "uploader",
+          "onChange": [Function],
+          "type": "file",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <svg
+            className="icon spin"
+          >
+            <use
+              xlinkHref="[object Object]#camera"
+            />
+          </svg>,
+          "htmlFor": "uploader",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <use
+              xlinkHref="[object Object]#camera"
+            />,
+            "className": "icon spin",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "xlinkHref": "[object Object]#camera",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "use",
+          },
+          "type": "svg",
+        },
+        "type": "label",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <input
+            accept=".png, .jpg, .jpeg"
+            disabled={true}
+            id="uploader"
+            onChange={[Function]}
+            type="file"
+          />,
+          <label
+            htmlFor="uploader"
+          >
+            <svg
+              className="icon spin"
+            >
+              <use
+                xlinkHref="[object Object]#camera"
+              />
+            </svg>
+          </label>,
+        ],
+        "className": "profile-image profile-image-uploader",
+        "style": Object {
+          "backgroundImage": "linear-gradient(rgba(150, 150, 150, 0.4), rgba(150, 150, 150, 0.4)), url(https://res.cloudinary.com/drmmqcxkc/image/upload/v1541506955/user-placeholder.png)",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "accept": ".png, .jpg, .jpeg",
+            "disabled": true,
+            "id": "uploader",
+            "onChange": [Function],
+            "type": "file",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <svg
+              className="icon spin"
+            >
+              <use
+                xlinkHref="[object Object]#camera"
+              />
+            </svg>,
+            "htmlFor": "uploader",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <use
+                xlinkHref="[object Object]#camera"
+              />,
+              "className": "icon spin",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "xlinkHref": "[object Object]#camera",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "use",
+            },
+            "type": "svg",
+          },
+          "type": "label",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`matches snapshot:::profileImage 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProfileImageUploader
+    profileImage="profileImage"
+    value="name"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <input
+          accept=".png, .jpg, .jpeg"
+          id="uploader"
+          onChange={[Function]}
+          type="file"
+        />,
+        <label
+          htmlFor="uploader"
+        >
+          <svg
+            className="icon "
+          >
+            <use
+              xlinkHref="[object Object]#camera"
+            />
+          </svg>
+        </label>,
+      ],
+      "className": "profile-image profile-image-uploader",
+      "style": Object {
+        "backgroundImage": "linear-gradient(rgba(150, 150, 150, 0.4), rgba(150, 150, 150, 0.4)), url(profileImage)",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "accept": ".png, .jpg, .jpeg",
+          "disabled": undefined,
+          "id": "uploader",
+          "onChange": [Function],
+          "type": "file",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <svg
+            className="icon "
+          >
+            <use
+              xlinkHref="[object Object]#camera"
+            />
+          </svg>,
+          "htmlFor": "uploader",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <use
+              xlinkHref="[object Object]#camera"
+            />,
+            "className": "icon ",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "xlinkHref": "[object Object]#camera",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "use",
+          },
+          "type": "svg",
+        },
+        "type": "label",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <input
+            accept=".png, .jpg, .jpeg"
+            id="uploader"
+            onChange={[Function]}
+            type="file"
+          />,
+          <label
+            htmlFor="uploader"
+          >
+            <svg
+              className="icon "
+            >
+              <use
+                xlinkHref="[object Object]#camera"
+              />
+            </svg>
+          </label>,
+        ],
+        "className": "profile-image profile-image-uploader",
+        "style": Object {
+          "backgroundImage": "linear-gradient(rgba(150, 150, 150, 0.4), rgba(150, 150, 150, 0.4)), url(profileImage)",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "accept": ".png, .jpg, .jpeg",
+            "disabled": undefined,
+            "id": "uploader",
+            "onChange": [Function],
+            "type": "file",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <svg
+              className="icon "
+            >
+              <use
+                xlinkHref="[object Object]#camera"
+              />
+            </svg>,
+            "htmlFor": "uploader",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <use
+                xlinkHref="[object Object]#camera"
+              />,
+              "className": "icon ",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "xlinkHref": "[object Object]#camera",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "use",
+            },
+            "type": "svg",
+          },
+          "type": "label",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

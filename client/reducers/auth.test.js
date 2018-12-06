@@ -9,13 +9,13 @@ describe('auth reducer', () => {
   it('should return the initial state', () => {
     expect(auth(undefined, {})).toEqual(state);
   });
-  it('should handle LOGIN', () => {
+  it('should handle SET_USER', () => {
     expect(
       auth({}, {
-        type: types.LOGIN,
+        type: types.SET_USER,
         payload: user,
       }),
-    ).toEqual({ user });
+    ).toEqual({ user, loginLoading: false, signupLoading: false });
   });
   it('should handle LOGIN_LOADING', () => {
     expect(
@@ -56,6 +56,22 @@ describe('auth reducer', () => {
         payload: user2,
       }),
     ).toEqual({ user: { ...user, ...user2 }, profileUpdateLoading: false });
+  });
+  it('should handle PROFILE_IMAGE_UPDATE_LOADING', () => {
+    expect(
+      auth({}, {
+        type: types.PROFILE_IMAGE_UPDATE_LOADING,
+        payload: true,
+      }),
+    ).toEqual({ profileImageUpdateLoading: true });
+  });
+  it('should handle PROFILE_IMAGE_UPDATE', () => {
+    expect(
+      auth({ user }, {
+        type: types.PROFILE_IMAGE_UPDATE,
+        payload: { image: 'url' },
+      }),
+    ).toEqual({ user: { ...user, ...{ image: 'url' } }, profileImageUpdateLoading: false });
   });
   it('should handle SIGN_OUT', () => {
     expect(

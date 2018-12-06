@@ -4,6 +4,7 @@ export default {
     loginLoading: false,
     signupLoading: false,
     profileUpdateLoading: false,
+    profileImageUpdateLoading: false,
     passwordUpdateLoading: false,
   },
   scroller: {
